@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "locale": "en",
+  "languages": ["python", "csharp", "javascript", "typescript", "java", "go"],
+  "sources": ["src"],
+  "exclude": ["**/node_modules/**", "**/.git/**", "**/__pycache__/**", ".spec-conformance/**", "**/.venv/**"],
+  "structure": {"modules": [{"id": "core", "path": "src/core"}, {"id": "adapters", "path": "src/adapters"}]},
+  "standards": {"rules": [
+    {"id": "folder-files", "unit": "folder", "metric": "files", "max": 12, "scope": "src/**", "depth": "direct", "enabled": true},
+    {"id": "class-functions", "unit": "class", "metric": "functions", "max": 20, "scope": "src/**", "depth": "direct", "enabled": true}
+  ]}
+}

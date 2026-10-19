@@ -1,0 +1,3158 @@
+{
+  "미구현·검증 미완료 코드 대상": [
+    "Implementation / verification targets",
+    "미구현·검증 미완료 코드 대상",
+    "未实现／未验证代码目标",
+    "未実装・未検証のコード対象"
+  ],
+  "미구현·검증 미완료": [
+    "Implementation / verification pending",
+    "미구현·검증 미완료",
+    "未实现／未验证",
+    "未実装・未検証"
+  ],
+  "코드 대조 결과 미확정 · 문서 검토 가능": [
+    "Code comparison pending; document review available",
+    "코드 대조 결과 미확정 · 문서 검토 가능",
+    "代码对照尚未确定；可审核文档",
+    "コード照合は未確定・文書確認は可能"
+  ],
+  "코드 대조 결과 미확정": [
+    "Code comparison pending",
+    "코드 대조 결과 미확정",
+    "代码对照尚未确定",
+    "コード照合は未確定"
+  ],
+  "코드 대조 결과가 아직 없습니다. 문서 변경 검토 탭에서 검토 목록을 확인할 수 있습니다.": [
+    "No code comparison yet. Open Document review to view pending changes.",
+    "코드 대조 결과가 아직 없습니다. 문서 변경 검토 탭에서 검토 목록을 확인할 수 있습니다.",
+    "尚无代码对照结果。请打开文档审核选项卡查看待审变更。",
+    "コード照合結果はまだありません。文書確認タブで変更を確認できます。"
+  ],
+  "코드 대조 결과를 기다리는 중입니다. 문서 변경 검토 탭은 사용할 수 있습니다.": [
+    "Waiting for code comparison. Document review is available.",
+    "코드 대조 결과를 기다리는 중입니다. 문서 변경 검토 탭은 사용할 수 있습니다.",
+    "正在等待代码对照结果。文档审核可用。",
+    "コード照合を待っています。文書確認タブは使用できます。"
+  ],
+  "문서 계약과 현재 코드의 미해결 지적입니다. 지적 사유와 대조 기준, 해당 코드 본문을 함께 표시합니다.": [
+    "Unresolved findings compare document contracts with current code. Each item shows the reason, comparison basis, and source.",
+    "문서 계약과 현재 코드의 미해결 지적입니다. 지적 사유와 대조 기준, 해당 코드 본문을 함께 표시합니다.",
+    "未解决的问题来自文档约束与当前代码的对照。每项显示原因、对照依据和源代码。",
+    "文書契約と現在のコードを照合した未解決の指摘です。理由、照合基準、コードを表示します。"
+  ],
+  "선언 누락·문서 불일치·코드 품질·구조·규칙·승인·파싱 지적을 모두 미해결에 포함합니다.": [
+    "Unresolved findings include missing declarations, document differences, quality, structure, rules, approvals, and parsing.",
+    "선언 누락·문서 불일치·코드 품질·구조·규칙·승인·파싱 지적을 모두 미해결에 포함합니다.",
+    "未解决问题包括声明缺失、文档差异、代码质量、结构、规则、批准和解析问题。",
+    "宣言漏れ、文書の不一致、品質、構造、規則、承認、解析の指摘を未解決として扱います。"
+  ],
+  "문서 형식·파싱 문제로 코드 대조가 완료되지 않았습니다. 이전 지적은 해소로 계산하지 않습니다.": [
+    "Document or parsing errors prevented comparison. Previous findings remain unresolved.",
+    "문서 형식·파싱 문제로 코드 대조가 완료되지 않았습니다. 이전 지적은 해소로 계산하지 않습니다.",
+    "文档格式或解析错误导致对照未完成。之前的问题仍未解决。",
+    "文書形式または解析の問題で照合が完了していません。以前の指摘は解消済みとしません。"
+  ],
+  "폴더의 문서 분리 표식을 누르면 우측에 원인과 문서 위치가 표시됩니다.": [
+    "Select a folder's document split marker to show its reason and document location on the right.",
+    "폴더의 문서 분리 표식을 누르면 우측에 원인과 문서 위치가 표시됩니다.",
+    "选择文件夹的文档拆分标记，可在右侧查看原因和文档位置。",
+    "フォルダーの文書分割マークを選ぶと、右側に理由と文書の位置を表示します。"
+  ],
+  "문서의 소유 선언으로 코드맵 폴더를 찾지 못했습니다.": [
+    "Document ownership could not be matched to a code map folder.",
+    "문서의 소유 선언으로 코드맵 폴더를 찾지 못했습니다.",
+    "无法根据文档的所属声明找到代码地图文件夹。",
+    "文書の所有宣言に対応するコードマップのフォルダーが見つかりません。"
+  ],
+  "지역 변수 자체의 문서 대조는 미확인": [
+    "Local variable document comparison is unverified",
+    "지역 변수 자체의 문서 대조는 미확인",
+    "局部变量的文档对照尚未验证",
+    "ローカル変数自体の文書照合は未確認"
+  ],
+  "같은 코드 위치의 지적과 대응 문서를 한 카드로 묶었습니다.": [
+    "Findings and documents for the same code location share one card.",
+    "같은 코드 위치의 지적과 대응 문서를 한 카드로 묶었습니다.",
+    "同一代码位置的问题和对应文档归入一张卡片。",
+    "同じコード位置の指摘と対応文書を1枚のカードにまとめています。"
+  ],
+  "이 편집 요청만 수락했습니다. 에이전트가 재시도하면 한 번 허용됩니다.": [
+    "This edit request was accepted for one retry by the agent.",
+    "이 편집 요청만 수락했습니다. 에이전트가 재시도하면 한 번 허용됩니다.",
+    "已批准此修改请求，允许代理重试一次。",
+    "この編集要求を承認しました。エージェントの再試行を1回許可します。"
+  ],
+  "코드 수정 요청을 거절했습니다.": [
+    "The code edit request was rejected.",
+    "코드 수정 요청을 거절했습니다.",
+    "已拒绝代码修改请求。",
+    "コード編集要求を拒否しました。"
+  ],
+  "판정이 갱신되었습니다. 최신 화면에서 다시 펼쳐 주세요.": [
+    "The diagnosis changed. Expand this item again on the updated page.",
+    "판정이 갱신되었습니다. 최신 화면에서 다시 펼쳐 주세요.",
+    "判定已更新，请在最新页面中重新展开。",
+    "判定が更新されました。最新の画面で再度開いてください。"
+  ],
+  "판이 변경됐습니다. 다시 펼쳐 확인하세요.": [
+    "The revision changed. Expand again to refresh.",
+    "판이 변경됐습니다. 다시 펼쳐 확인하세요.",
+    "版本已更改，请重新展开查看。",
+    "版が更新されました。再度開いて確認してください。"
+  ],
+  "폴더를 선택하면 모든 하위 폴더의 문서 변경을 재귀적으로 모읍니다. 우측 ‘하위 전체 승인’ 한 번으로 선택 범위를 처리합니다.": [
+    "Selecting a folder includes document changes in all descendants. Use Approve subtree to review that selection.",
+    "폴더를 선택하면 모든 하위 폴더의 문서 변경을 재귀적으로 모읍니다. 우측 ‘하위 전체 승인’ 한 번으로 선택 범위를 처리합니다.",
+    "选择文件夹会包含所有下级文档变更。使用“批准整个子树”处理所选范围。",
+    "フォルダーを選ぶと配下の文書変更を集めます。「配下を一括承認」で選択範囲を処理します。"
+  ],
+  "PH별 대상과 지적은 독립적으로 표시합니다. 재발은 원래 PH에 남고, 배정이 겹치면 미배정으로 유지합니다. 전체 완료·필수 오류 판정은 별도 전체 집계를 사용합니다.": [
+    "Each phase shows its own targets and findings. Recurrences stay in their original phase; conflicting assignments remain unassigned. Completion uses the full aggregate.",
+    "PH별 대상과 지적은 독립적으로 표시합니다. 재발은 원래 PH에 남고, 배정이 겹치면 미배정으로 유지합니다. 전체 완료·필수 오류 판정은 별도 전체 집계를 사용합니다.",
+    "各阶段分别显示目标和问题。复发问题保留在原阶段，冲突分配保持未分配。完成判定采用全量汇总。",
+    "各フェーズの対象と指摘を個別に表示します。再発は元のフェーズに残り、割当の競合は未割当になります。完了判定には全体集計を使います。"
+  ],
+  "하위 전체 승인은 이 폴더 아래의 모든 하위 폴더·문서를 한 번에 처리합니다. 기존 틀림 판정은 제외하며, 개별 수정은 아래 변경 내역에서 할 수 있습니다.": [
+    "Approve subtree processes all descendant documents, excluding existing rejected items. Review individual changes below.",
+    "하위 전체 승인은 이 폴더 아래의 모든 하위 폴더·문서를 한 번에 처리합니다. 기존 틀림 판정은 제외하며, 개별 수정은 아래 변경 내역에서 할 수 있습니다.",
+    "批准整个子树会处理所有下级文档，不包括已经拒绝的项目。可在下方单独审核。",
+    "配下の一括承認は、既存の誤り判定を除く下位文書を処理します。個別の修正は下の変更内容で確認できます。"
+  ],
+  "체크 묶음마다 틀린 줄의 왼쪽 칸을 체크하고 제출한다(체크한 줄 틀림, 나머지 맞음). 왼쪽 맵에서 코드 항목을 누르면 연결된 문서 변경만 보인다": [
+    "Select incorrect lines in each group before submitting. Selecting code on the left filters related document changes.",
+    "체크 묶음마다 틀린 줄의 왼쪽 칸을 체크하고 제출한다(체크한 줄 틀림, 나머지 맞음). 왼쪽 맵에서 코드 항목을 누르면 연결된 문서 변경만 보인다",
+    "勾选每组中错误的行后提交。选择左侧代码可筛选相关文档变更。",
+    "各グループの誤った行を選択して送信します。左のコードを選ぶと関連する文書変更を絞り込めます。"
+  ],
+  "체크 묶음마다 틀린 줄의 왼쪽 칸을 체크하고 제출한다(체크한 줄 틀림, 나머지 맞음). 왼쪽에서 선택한 범위의 변경만 보인다.": [
+    "Select incorrect lines in each group before submitting. Only changes in the selected scope are shown.",
+    "체크 묶음마다 틀린 줄의 왼쪽 칸을 체크하고 제출한다(체크한 줄 틀림, 나머지 맞음). 왼쪽에서 선택한 범위의 변경만 보인다.",
+    "勾选每组中错误的行后提交。仅显示所选范围内的变更。",
+    "各グループの誤った行を選択して送信します。左で選んだ範囲の変更を表示します。"
+  ],
+  "현재 대상의 문서 변경 체크 대기가 없습니다.": [
+    "No document changes await review in this selection.",
+    "현재 대상의 문서 변경 체크 대기가 없습니다.",
+    "所选范围没有待审核的文档变更。",
+    "選択範囲に確認待ちの文書変更はありません。"
+  ],
+  "파일로 연 지도라 체크 단추가 없다 — 감시 서버 주소(engine.py ask status)로 연다": [
+    "Review controls require the live server. Get its address with engine.py ask status.",
+    "파일로 연 지도라 체크 단추가 없다 — 감시 서버 주소(engine.py ask status)로 연다",
+    "审核操作需要实时服务器。通过 engine.py ask status 获取地址。",
+    "確認操作にはライブサーバーが必要です。engine.py ask status でアドレスを確認してください。"
+  ],
+  "파일로 연 지도라 조작 단추가 없다 — 감시 서버 주소로 연다": [
+    "Open the live server to enable controls.",
+    "파일로 연 지도라 조작 단추가 없다 — 감시 서버 주소로 연다",
+    "打开实时服务器以启用操作。",
+    "操作するにはライブサーバーを開いてください。"
+  ],
+  "체크 단추는 실시간 지도(감시 서버 주소)에서 나온다": [
+    "Review controls are available on the live map.",
+    "체크 단추는 실시간 지도(감시 서버 주소)에서 나온다",
+    "审核按钮在实时地图中提供。",
+    "確認ボタンはライブマップで使用できます。"
+  ],
+  "머메이드를 읽지 못해 그림을 그릴 수 없습니다(인터넷 연결). 오른쪽 목록은 그대로 보입니다.": [
+    "Could not load Mermaid. Check the network connection. The list on the right remains available.",
+    "머메이드를 읽지 못해 그림을 그릴 수 없습니다(인터넷 연결). 오른쪽 목록은 그대로 보입니다.",
+    "无法加载 Mermaid，请检查网络连接。右侧列表仍可用。",
+    "Mermaid を読み込めません。ネットワーク接続を確認してください。右側の一覧は使用できます。"
+  ],
+  "− 변경 전 문서 · + 변경 후 문서. 아래 문서 내용에 대해 맞음/틀림을 체크합니다.": [
+    "− Previous document · + Updated document. Mark the content below correct or incorrect.",
+    "− 변경 전 문서 · + 변경 후 문서. 아래 문서 내용에 대해 맞음/틀림을 체크합니다.",
+    "− 变更前文档 · + 变更后文档。请审核下方内容是否正确。",
+    "− 変更前の文書 · + 変更後の文書。以下の内容を正しい／誤りで確認します。"
+  ],
+  "문서 검토 목록은 별도로 조회합니다.": [
+    "Document reviews are loaded separately.",
+    "문서 검토 목록은 별도로 조회합니다.",
+    "文档审核列表单独加载。",
+    "文書確認一覧は別途読み込みます。"
+  ],
+  "전달이 끝나면 서버가 문서별로 반영하고 지도를 한 번 갱신합니다.": [
+    "After submission, the server applies each document review and refreshes the map once.",
+    "전달이 끝나면 서버가 문서별로 반영하고 지도를 한 번 갱신합니다.",
+    "提交完成后，服务器逐个应用文档审核并刷新地图一次。",
+    "送信後、サーバーが文書ごとに反映してマップを1回更新します。"
+  ],
+  "서버가 같은 포트로 다시 뜨면 저절로 다시 붙는다. 안 붙으면 .spec-conformance/Reports/map.html을 다시 연다": [
+    "Reconnects automatically when the server returns on the same port. Otherwise reopen .spec-conformance/Reports/map.html.",
+    "서버가 같은 포트로 다시 뜨면 저절로 다시 붙는다. 안 붙으면 .spec-conformance/Reports/map.html을 다시 연다",
+    "服务器恢复到同一端口时会自动重连，否则请重新打开 .spec-conformance/Reports/map.html。",
+    "サーバーが同じポートで再起動すると自動再接続します。接続しない場合は .spec-conformance/Reports/map.html を開き直してください。"
+  ],
+  "지금 페이즈 바로 다음 순위로 들어가고 뒤는 한 칸씩 밀린다": [
+    "Insert after the current phase and shift later phases.",
+    "지금 페이즈 바로 다음 순위로 들어가고 뒤는 한 칸씩 밀린다",
+    "插入到当前阶段之后，后续阶段顺延。",
+    "現在のフェーズの直後に挿入し、後続を繰り下げます。"
+  ],
+  "대상: 단계 E12 또는 S1 Assets/Scripts/Character (쉼표로 여럿)": [
+    "Targets: step E12 or S1 Assets/Scripts/Character (comma separated)",
+    "대상: 단계 E12 또는 S1 Assets/Scripts/Character (쉼표로 여럿)",
+    "目标：步骤 E12 或 S1 Assets/Scripts/Character（逗号分隔）",
+    "対象：段階 E12 または S1 Assets/Scripts/Character（カンマ区切り）"
+  ],
+  "부르는 쪽(왼쪽) → 이 메서드 → 부르는 대상·읽고 쓰는 변수(오른쪽). 빨강 = I1 인터페이스 우회": [
+    "Callers (left) → this method → callees / variables (right). Red = I1 interface bypass",
+    "부르는 쪽(왼쪽) → 이 메서드 → 부르는 대상·읽고 쓰는 변수(오른쪽). 빨강 = I1 인터페이스 우회",
+    "调用方（左）→ 此方法 → 被调用方／变量（右）。红色表示 I1 接口绕过",
+    "呼び出し元（左）→ このメソッド → 呼び出し先・変数（右）。赤は I1 インターフェース迂回"
+  ],
+  "읽는 쪽 · 쓰는 쪽(굵은 주황)": [
+    "Readers · writers (bold orange)",
+    "읽는 쪽 · 쓰는 쪽(굵은 주황)",
+    "读取方 · 写入方（橙色粗线）",
+    "読み取り元・書き込み元（太いオレンジ）"
+  ],
+  "실선 = 읽기, 굵은 주황 = 쓰기, 점선 = 호출": [
+    "Solid = read; bold orange = write; dashed = call",
+    "실선 = 읽기, 굵은 주황 = 쓰기, 점선 = 호출",
+    "实线＝读取，橙色粗线＝写入，虚线＝调用",
+    "実線＝読み取り、太いオレンジ＝書き込み、点線＝呼び出し"
+  ],
+  "멤버가 많아 참조선은 '모든 참조선'으로 켠다": [
+    "Use All references to show edges for large member sets",
+    "멤버가 많아 참조선은 '모든 참조선'으로 켠다",
+    "成员较多，请使用“所有引用”显示连线",
+    "メンバーが多いため「すべての参照」で線を表示します"
+  ],
+  "계층 안 참조선은 '모든 참조선'으로 켠다": [
+    "Use All references to show edges within layers",
+    "계층 안 참조선은 '모든 참조선'으로 켠다",
+    "使用“所有引用”显示层内连线",
+    "層内の線は「すべての参照」で表示します"
+  ],
+  "형 안 참조선은 '모든 참조선'으로 켠다": [
+    "Use All references to show edges within types",
+    "형 안 참조선은 '모든 참조선'으로 켠다",
+    "使用“所有引用”显示类型内连线",
+    "型内の線は「すべての参照」で表示します"
+  ],
+  "문서에 선언됐으나 코드에 없는 멤버": [
+    "Members declared in documents but absent from code",
+    "문서에 선언됐으나 코드에 없는 멤버",
+    "文档中已声明但代码中不存在的成员",
+    "文書に宣言され、コードには存在しないメンバー"
+  ],
+  "등록된 모듈 폴더 연결 없음": [
+    "No registered module folder link",
+    "등록된 모듈 폴더 연결 없음",
+    "未关联已注册的模块文件夹",
+    "登録されたモジュールフォルダーへの接続なし"
+  ],
+  "/ 아래의 모듈 폴더 연결 필요": [
+    "/ requires a descendant module folder link",
+    "/ 아래의 모듈 폴더 연결 필요",
+    "/ 需要关联下级模块文件夹",
+    "/ 配下のモジュールフォルダーへの接続が必要"
+  ],
+  "표시 판정의 최신 여부 확인 중…": [
+    "Checking diagnosis freshness…",
+    "표시 판정의 최신 여부 확인 중…",
+    "正在检查判定是否最新…",
+    "判定が最新か確認中…"
+  ],
+  "체크 반영 후 화면 갱신 실패": [
+    "Failed to refresh after review",
+    "체크 반영 후 화면 갱신 실패",
+    "审核后刷新失败",
+    "確認反映後の画面更新に失敗"
+  ],
+  "결과 확인 실패 · 서버에서 계속 처리 중일 수 있습니다": [
+    "Could not confirm results; server processing may continue",
+    "결과 확인 실패 · 서버에서 계속 처리 중일 수 있습니다",
+    "无法确认结果；服务器可能仍在处理",
+    "結果を確認できません。サーバーで処理が続いている可能性があります"
+  ],
+  "서버 연결 끊김 — 체크가 전달되지 않음(이 주소 ": [
+    "Server disconnected; review was not submitted (address ",
+    "서버 연결 끊김 — 체크가 전달되지 않음(이 주소 ",
+    "服务器断开，审核未提交（地址 ",
+    "サーバーが切断され、確認は未送信です（アドレス "
+  ],
+  "맞음으로 낼 줄이 없습니다(모두 체크됨)": [
+    "No lines remain to approve (all selected)",
+    "맞음으로 낼 줄이 없습니다(모두 체크됨)",
+    "没有可批准的行（已全部勾选）",
+    "承認する行がありません（すべて選択済み）"
+  ],
+  "맞음으로 낼 줄이 없다(모두 틀림 줄)": [
+    "No lines remain to approve (all incorrect)",
+    "맞음으로 낼 줄이 없다(모두 틀림 줄)",
+    "没有可批准的行（全部错误）",
+    "承認する行がありません（すべて誤り）"
+  ],
+  "페이즈 표가 없거나 문서 형식 오류로 계산하지 못했다": [
+    "No phase table, or invalid document format",
+    "페이즈 표가 없거나 문서 형식 오류로 계산하지 못했다",
+    "缺少阶段表或文档格式无效",
+    "フェーズ表がないか、文書形式のエラーで計算できません"
+  ],
+  "전체 미해결": [
+    "All unresolved",
+    "전체 미해결",
+    "全部未解决",
+    "未解決の合計"
+  ],
+  "표시 판 지적 발생": [
+    "Occurrences in displayed revision",
+    "표시 판 지적 발생",
+    "显示版本中的问题次数",
+    "表示中の版の指摘発生数"
+  ],
+  "문서 변경 검토": [
+    "Document review",
+    "문서 변경 검토",
+    "文档审核",
+    "文書確認"
+  ],
+  "문서 변경 체크": [
+    "Document review",
+    "문서 변경 체크",
+    "文档变更审核",
+    "文書変更の確認"
+  ],
+  "문서 변경 내역": [
+    "Document changes",
+    "문서 변경 내역",
+    "文档变更记录",
+    "文書の変更内容"
+  ],
+  "문서 반영 진행 상태": [
+    "Document conformance progress",
+    "문서 반영 진행 상태",
+    "文档落实进度",
+    "文書反映の進捗"
+  ],
+  "문서 분리 지적": [
+    "Document split findings",
+    "문서 분리 지적",
+    "文档拆分问题",
+    "文書分割の指摘"
+  ],
+  "문서 분리": [
+    "Document split",
+    "문서 분리",
+    "文档拆分",
+    "文書分割"
+  ],
+  "소스 폴더 미연결": [
+    "Unlinked source folders",
+    "소스 폴더 미연결",
+    "未关联的源文件夹",
+    "未接続のソースフォルダー"
+  ],
+  "구현 없는 인터페이스": [
+    "Interfaces without implementation",
+    "구현 없는 인터페이스",
+    "无实现的接口",
+    "実装のないインターフェース"
+  ],
+  "인터페이스 없는 폴더 경계": [
+    "Folder boundaries without interfaces",
+    "인터페이스 없는 폴더 경계",
+    "缺少接口的文件夹边界",
+    "インターフェースのないフォルダー境界"
+  ],
+  "인터페이스 우회": [
+    "Interface bypass",
+    "인터페이스 우회",
+    "接口绕过",
+    "インターフェース迂回"
+  ],
+  "파이프라인 위반": [
+    "Pipeline violations",
+    "파이프라인 위반",
+    "流水线违规",
+    "パイプライン違反"
+  ],
+  "계층 밖 파일": [
+    "Files outside layers",
+    "계층 밖 파일",
+    "层外文件",
+    "層外のファイル"
+  ],
+  "밖에서 쓰는 멤버": [
+    "Externally used members",
+    "밖에서 쓰는 멤버",
+    "外部使用的成员",
+    "外部から使うメンバー"
+  ],
+  "밖에서 쓰는 형": [
+    "Externally used types",
+    "밖에서 쓰는 형",
+    "外部使用的类型",
+    "外部から使う型"
+  ],
+  "코드 없는 멤버": [
+    "Members without code",
+    "코드 없는 멤버",
+    "缺少代码的成员",
+    "コードのないメンバー"
+  ],
+  "코드 없는 형": [
+    "Types without code",
+    "코드 없는 형",
+    "缺少代码的类型",
+    "コードのない型"
+  ],
+  "바로 든 인터페이스": [
+    "Direct interfaces",
+    "바로 든 인터페이스",
+    "直接所属接口",
+    "直下のインターフェース"
+  ],
+  "바로 든 클래스": [
+    "Direct classes",
+    "바로 든 클래스",
+    "直接所属类",
+    "直下のクラス"
+  ],
+  "전역·정적 변수": [
+    "Global / static variables",
+    "전역·정적 변수",
+    "全局／静态变量",
+    "グローバル・静的変数"
+  ],
+  "클래스 변수": [
+    "Class fields",
+    "클래스 변수",
+    "类字段",
+    "クラス変数"
+  ],
+  "코드 수정 수락 요청": [
+    "Code edit approval requests",
+    "코드 수정 수락 요청",
+    "代码修改批准请求",
+    "コード編集の承認要求"
+  ],
+  "이 코드 수정 수락": [
+    "Approve this code edit",
+    "이 코드 수정 수락",
+    "批准此代码修改",
+    "このコード編集を承認"
+  ],
+  "코드 유지 검사": [
+    "Code preservation check",
+    "코드 유지 검사",
+    "代码保持检查",
+    "コード維持の検査"
+  ],
+  "코드 변경 없음 — 문서만 수정 중": [
+    "No code changes; editing documents",
+    "코드 변경 없음 — 문서만 수정 중",
+    "代码无变更，正在编辑文档",
+    "コード変更なし・文書を編集中"
+  ],
+  "허용되지 않은 변경": [
+    "Unauthorized changes",
+    "허용되지 않은 변경",
+    "未授权变更",
+    "許可されていない変更"
+  ],
+  "작업 범위 위반": [
+    "Work scope violation",
+    "작업 범위 위반",
+    "工作范围违规",
+    "作業範囲の違反"
+  ],
+  "전체 위치의 필터 후 표시": [
+    "Filtered across all locations",
+    "전체 위치의 필터 후 표시",
+    "筛选全部位置",
+    "全位置を絞り込み表示"
+  ],
+  "선택한 위치의 필터 후 표시": [
+    "Filtered within selected location",
+    "선택한 위치의 필터 후 표시",
+    "筛选所选位置",
+    "選択位置を絞り込み表示"
+  ],
+  "선택한 위치의 미해결": [
+    "Unresolved at selected location",
+    "선택한 위치의 미해결",
+    "所选位置的未解决问题",
+    "選択位置の未解決"
+  ],
+  "선택한 코드에 관련된 문서 지적": [
+    "Document findings for selected code",
+    "선택한 코드에 관련된 문서 지적",
+    "所选代码的文档问题",
+    "選択コードに関連する文書の指摘"
+  ],
+  "대응 문서가 없는 지적": [
+    "Findings without matching documents",
+    "대응 문서가 없는 지적",
+    "缺少对应文档的问题",
+    "対応文書のない指摘"
+  ],
+  "이 문서의 누락·차이": [
+    "Missing items / differences in this document",
+    "이 문서의 누락·차이",
+    "此文档的缺失项／差异",
+    "この文書の不足・差異"
+  ],
+  "관련 파일의 등록 위치": [
+    "Registered locations in related files",
+    "관련 파일의 등록 위치",
+    "相关文件的注册位置",
+    "関連ファイルの登録位置"
+  ],
+  "승인 실행 기준": [
+    "Approved execution basis",
+    "승인 실행 기준",
+    "已批准的执行依据",
+    "承認された実行基準"
+  ],
+  "대조 기준 · 문서 계약": [
+    "Comparison basis · document contract",
+    "대조 기준 · 문서 계약",
+    "对照依据 · 文档约束",
+    "照合基準・文書契約"
+  ],
+  "계약 설명 미등록": [
+    "No contract description",
+    "계약 설명 미등록",
+    "未注册约束说明",
+    "契約の説明なし"
+  ],
+  "코드 본문 미제공": [
+    "Source body unavailable",
+    "코드 본문 미제공",
+    "未提供代码正文",
+    "コード本文なし"
+  ],
+  "지적 발생 건수에 포함된 대조 차단 오류": [
+    "Blocking comparison errors included in occurrences",
+    "지적 발생 건수에 포함된 대조 차단 오류",
+    "计入问题次数的对照阻断错误",
+    "発生数に含まれる照合の阻害エラー"
+  ],
+  "전체 펼쳐 보기": [
+    "Expand all",
+    "전체 펼쳐 보기",
+    "展开全部",
+    "すべて展開"
+  ],
+  "펼쳐 보기": [
+    "Expand",
+    "펼쳐 보기",
+    "展开",
+    "展開"
+  ],
+  "펼치면 원 지적을 조회합니다.": [
+    "Expand to load original findings.",
+    "펼치면 원 지적을 조회합니다.",
+    "展开以加载原始问题。",
+    "開くと元の指摘を読み込みます。"
+  ],
+  "다음 100곳 보기": [
+    "Show next 100 locations",
+    "다음 100곳 보기",
+    "显示下 100 个位置",
+    "次の100か所を表示"
+  ],
+  "해소된 코드 위치": [
+    "Resolved code locations",
+    "해소된 코드 위치",
+    "已解决的代码位置",
+    "解消済みのコード位置"
+  ],
+  "해소 내역 불러오는 중…": [
+    "Loading resolved findings…",
+    "해소 내역 불러오는 중…",
+    "正在加载已解决问题…",
+    "解消履歴を読み込み中…"
+  ],
+  "해소 내역을 불러오지 못했습니다.": [
+    "Could not load resolved findings.",
+    "해소 내역을 불러오지 못했습니다.",
+    "无法加载已解决问题。",
+    "解消履歴を読み込めませんでした。"
+  ],
+  "틀린 줄의 왼쪽 칸을 먼저 체크하세요": [
+    "Select incorrect lines first",
+    "틀린 줄의 왼쪽 칸을 먼저 체크하세요",
+    "请先勾选错误的行",
+    "先に誤った行を選択してください"
+  ],
+  "틀림 제출 — 체크한 줄만": [
+    "Reject selected lines",
+    "틀림 제출 — 체크한 줄만",
+    "拒绝所选行",
+    "選択した行を誤りとして送信"
+  ],
+  "체크한 줄이 틀린 이유": [
+    "Reason selected lines are incorrect",
+    "체크한 줄이 틀린 이유",
+    "所选行错误的原因",
+    "選択した行が誤りである理由"
+  ],
+  "틀린 줄이면 체크": [
+    "Select if incorrect",
+    "틀린 줄이면 체크",
+    "如果有误请勾选",
+    "誤りなら選択"
+  ],
+  "틀림 이유(한 줄)": [
+    "Reason (one line)",
+    "틀림 이유(한 줄)",
+    "原因（一行）",
+    "理由（1行）"
+  ],
+  "틀림 이유": [
+    "Reason for rejection",
+    "틀림 이유",
+    "错误原因",
+    "誤りの理由"
+  ],
+  "나머지 맞음": [
+    "Approve remaining",
+    "나머지 맞음",
+    "批准其余行",
+    "残りを承認"
+  ],
+  "모두 틀림": [
+    "Reject all",
+    "모두 틀림",
+    "全部拒绝",
+    "すべて誤り"
+  ],
+  "모두 맞음": [
+    "Approve all",
+    "모두 맞음",
+    "全部批准",
+    "すべて承認"
+  ],
+  "하위 전체 승인": [
+    "Approve subtree",
+    "하위 전체 승인",
+    "批准整个子树",
+    "配下を一括承認"
+  ],
+  "모든 하위 폴더 포함": [
+    "Including all descendant folders",
+    "모든 하위 폴더 포함",
+    "包含所有下级文件夹",
+    "すべての下位フォルダーを含む"
+  ],
+  "선택한 PH가 없습니다.": [
+    "No phase selected.",
+    "선택한 PH가 없습니다.",
+    "未选择阶段。",
+    "フェーズが選択されていません。"
+  ],
+  "규칙별 지적 바로 보기": [
+    "Browse findings by rule",
+    "규칙별 지적 바로 보기",
+    "按规则查看问题",
+    "規則別に指摘を表示"
+  ],
+  "규칙별 바로 보기": [
+    "Browse by rule",
+    "규칙별 바로 보기",
+    "按规则查看",
+    "規則別に表示"
+  ],
+  "지적 전체 목록": [
+    "All findings",
+    "지적 전체 목록",
+    "全部问题列表",
+    "指摘の全一覧"
+  ],
+  "인터페이스 대응 문제": [
+    "Interface conformance issues",
+    "인터페이스 대응 문제",
+    "接口对应问题",
+    "インターフェース対応の問題"
+  ],
+  "코드 구조에서 보기": [
+    "View code structure",
+    "코드 구조에서 보기",
+    "查看代码结构",
+    "コード構造で表示"
+  ],
+  "고르기 풀기": [
+    "Clear selection",
+    "고르기 풀기",
+    "清除选择",
+    "選択を解除"
+  ],
+  "체크 목록 다시 받는 중…": [
+    "Reloading review list…",
+    "체크 목록 다시 받는 중…",
+    "正在重新加载审核列表…",
+    "確認一覧を再読み込み中…"
+  ],
+  "문서 검토 목록 조회 실패": [
+    "Could not load document reviews",
+    "문서 검토 목록 조회 실패",
+    "文档审核列表加载失败",
+    "文書確認一覧の読み込みに失敗"
+  ],
+  "체크 응답 오류": [
+    "Review response error",
+    "체크 응답 오류",
+    "审核响应错误",
+    "確認の応答エラー"
+  ],
+  "묶음 전달 중": [
+    "Submitting groups",
+    "묶음 전달 중",
+    "正在提交分组",
+    "グループを送信中"
+  ],
+  "서버 연결을 다시 확인하는 중…": [
+    "Checking server connection…",
+    "서버 연결을 다시 확인하는 중…",
+    "正在检查服务器连接…",
+    "サーバー接続を確認中…"
+  ],
+  "체크를 완료하지 못했습니다": [
+    "Review could not be completed",
+    "체크를 완료하지 못했습니다",
+    "审核未能完成",
+    "確認を完了できませんでした"
+  ],
+  "지도 자료를 받지 못했습니다": [
+    "Could not load map data",
+    "지도 자료를 받지 못했습니다",
+    "无法加载地图数据",
+    "マップデータを読み込めませんでした"
+  ],
+  "지도 자료를 받는 중…": [
+    "Loading map data…",
+    "지도 자료를 받는 중…",
+    "正在加载地图数据…",
+    "マップデータを読み込み中…"
+  ],
+  "지도 갱신 실패": [
+    "Map refresh failed",
+    "지도 갱신 실패",
+    "地图刷新失败",
+    "マップ更新に失敗"
+  ],
+  "지도 기준 불일치": [
+    "Map revision mismatch",
+    "지도 기준 불일치",
+    "地图版本不一致",
+    "マップの基準不一致"
+  ],
+  "최신 대조 실패": [
+    "Latest comparison failed",
+    "최신 대조 실패",
+    "最新对照失败",
+    "最新の照合に失敗"
+  ],
+  "최신 대조 대기": [
+    "Waiting for latest comparison",
+    "최신 대조 대기",
+    "等待最新对照",
+    "最新の照合待ち"
+  ],
+  "모드 전환 중…": [
+    "Changing workflow…",
+    "모드 전환 중…",
+    "正在切换工作模式…",
+    "作業モードを切り替え中…"
+  ],
+  "코드 기준 검증 · 불일치 반복 지적": [
+    "Code-based verification · persistent differences",
+    "코드 기준 검증 · 불일치 반복 지적",
+    "以代码为准验证 · 持续报告差异",
+    "コード基準の検証・不一致を継続して指摘"
+  ],
+  "문서 기준 검증": [
+    "Document-based verification",
+    "문서 기준 검증",
+    "以文档为准验证",
+    "文書基準の検証"
+  ],
+  "의 지적·코드 대상 수를 표시 중": [
+    " finding / code target counts shown",
+    "의 지적·코드 대상 수를 표시 중",
+    " 的问题／代码目标数量显示中",
+    " の指摘・コード対象数を表示中"
+  ],
+  "페이즈 조작 실패": [
+    "Phase update failed",
+    "페이즈 조작 실패",
+    "阶段操作失败",
+    "フェーズの操作に失敗"
+  ],
+  "페이즈 고치는 중…": [
+    "Updating phases…",
+    "페이즈 고치는 중…",
+    "正在更新阶段…",
+    "フェーズを更新中…"
+  ],
+  "페이즈 이름(예: PH10)": [
+    "Phase name (e.g. PH10)",
+    "페이즈 이름(예: PH10)",
+    "阶段名称（例如 PH10）",
+    "フェーズ名（例：PH10）"
+  ],
+  "페이즈를 지울까요?": [
+    "Delete this phase?",
+    "페이즈를 지울까요?",
+    "删除此阶段？",
+    "このフェーズを削除しますか？"
+  ],
+  "새 작업 넣기": [
+    "Add work",
+    "새 작업 넣기",
+    "添加工作",
+    "作業を追加"
+  ],
+  "문서·파싱": [
+    "Documents / parsing",
+    "문서·파싱",
+    "文档／解析",
+    "文書・解析"
+  ],
+  "위치·참조 위반": [
+    "Location / reference violations",
+    "위치·참조 위반",
+    "位置／引用违规",
+    "位置・参照違反"
+  ],
+  "따로 놂·다른 계층 전용·복사본": [
+    "Isolated / other-layer-only / duplicate",
+    "따로 놂·다른 계층 전용·복사본",
+    "孤立／仅其他层使用／重复",
+    "孤立・他層専用・複製"
+  ],
+  "그 밖의 W": [
+    "Other warnings",
+    "그 밖의 W",
+    "其他警告",
+    "その他の警告"
+  ],
+  "전체 코드 맵": [
+    "Complete code map",
+    "전체 코드 맵",
+    "完整代码地图",
+    "コードマップ全体"
+  ],
+  "미확인": [
+    "Unverified",
+    "미확인",
+    "未确认",
+    "未確認"
+  ],
+  "미확정": [
+    "Pending",
+    "미확정",
+    "待确定",
+    "未確定"
+  ],
+  "문서 미등록": [
+    "Unregistered document",
+    "문서 미등록",
+    "文档未注册",
+    "文書未登録"
+  ],
+  "문서 누락": [
+    "Missing document",
+    "문서 누락",
+    "文档缺失",
+    "文書漏れ"
+  ],
+  "구현 확인 필요": [
+    "Implementation review needed",
+    "구현 확인 필요",
+    "需要确认实现",
+    "実装の確認が必要"
+  ],
+  "검증 미완료": [
+    "Unverified",
+    "검증 미완료",
+    "未验证",
+    "未検証"
+  ],
+  "구현 없음": [
+    "No implementation",
+    "구현 없음",
+    "无实现",
+    "実装なし"
+  ],
+  "코드 없음": [
+    "No code",
+    "코드 없음",
+    "无代码",
+    "コードなし"
+  ],
+  "미구현": [
+    "Unimplemented",
+    "미구현",
+    "未实现",
+    "未実装"
+  ],
+  "소유 연결 없음": [
+    "No ownership link",
+    "소유 연결 없음",
+    "无所属关联",
+    "所有関係の接続なし"
+  ],
+  "소스 폴더": [
+    "Source folder",
+    "소스 폴더",
+    "源文件夹",
+    "ソースフォルダー"
+  ],
+  "분리 위치": [
+    "Split location",
+    "분리 위치",
+    "拆分位置",
+    "分割先"
+  ],
+  "남은 지적": [
+    "Remaining findings",
+    "남은 지적",
+    "剩余问题",
+    "残りの指摘"
+  ],
+  "배정 충돌": [
+    "Assignment conflicts",
+    "배정 충돌",
+    "分配冲突",
+    "割当の競合"
+  ],
+  "미배정": [
+    "Unassigned",
+    "미배정",
+    "未分配",
+    "未割当"
+  ],
+  "표시 판": [
+    "Displayed revision",
+    "표시 판",
+    "显示版本",
+    "表示中の版"
+  ],
+  "이전 판": [
+    "Previous revision",
+    "이전 판",
+    "上一版本",
+    "前の版"
+  ],
+  "감시 코드": [
+    "Watched code",
+    "감시 코드",
+    "监视代码",
+    "監視コード"
+  ],
+  "현재 기준": [
+    "Current basis",
+    "현재 기준",
+    "当前依据",
+    "現在の基準"
+  ],
+  "승인본 기준": [
+    "Approved basis",
+    "승인본 기준",
+    "批准版本依据",
+    "承認版の基準"
+  ],
+  "허용된 수정": [
+    "Permitted edits",
+    "허용된 수정",
+    "允许的修改",
+    "許可された編集"
+  ],
+  "허용된 변경": [
+    "Permitted changes",
+    "허용된 변경",
+    "允许的变更",
+    "許可された変更"
+  ],
+  "재검사 대기": [
+    "Awaiting recheck",
+    "재검사 대기",
+    "待重新检查",
+    "再検査待ち"
+  ],
+  "전체 문서": [
+    "All documents",
+    "전체 문서",
+    "全部文档",
+    "すべての文書"
+  ],
+  "전체 지적": [
+    "All findings",
+    "전체 지적",
+    "全部问题",
+    "すべての指摘"
+  ],
+  "지적 없음": [
+    "No findings",
+    "지적 없음",
+    "无问题",
+    "指摘なし"
+  ],
+  "지적 있음": [
+    "Has findings",
+    "지적 있음",
+    "存在问题",
+    "指摘あり"
+  ],
+  "선택 대상": [
+    "Selected target",
+    "선택 대상",
+    "所选目标",
+    "選択対象"
+  ],
+  "문서 변경 없음": [
+    "No document changes",
+    "문서 변경 없음",
+    "文档无变更",
+    "文書変更なし"
+  ],
+  "코드 변경": [
+    "Code changes",
+    "코드 변경",
+    "代码变更",
+    "コード変更"
+  ],
+  "문서 변경": [
+    "Document changes",
+    "문서 변경",
+    "文档变更",
+    "文書変更"
+  ],
+  "필터 표시": [
+    "Filtered display",
+    "필터 표시",
+    "筛选显示",
+    "絞り込み表示"
+  ],
+  "현재 판정": [
+    "Current diagnosis",
+    "현재 판정",
+    "当前判定",
+    "現在の判定"
+  ],
+  "원 발생": [
+    "Original occurrences",
+    "원 발생",
+    "原始次数",
+    "元の発生数"
+  ],
+  "고유 지적": [
+    "Unique findings",
+    "고유 지적",
+    "独立问题",
+    "固有の指摘"
+  ],
+  "작업 묶음": [
+    "Work groups",
+    "작업 묶음",
+    "工作组",
+    "作業グループ"
+  ],
+  "체크 묶음": [
+    "Review groups",
+    "체크 묶음",
+    "审核组",
+    "確認グループ"
+  ],
+  "체크 대기": [
+    "Awaiting review",
+    "체크 대기",
+    "待审核",
+    "確認待ち"
+  ],
+  "판정 대기": [
+    "Awaiting diagnosis",
+    "판정 대기",
+    "待判定",
+    "判定待ち"
+  ],
+  "대응 문서": [
+    "Matching documents",
+    "대응 문서",
+    "对应文档",
+    "対応文書"
+  ],
+  "코드 위치": [
+    "Code locations",
+    "코드 위치",
+    "代码位置",
+    "コード位置"
+  ],
+  "문서·구조 지적": [
+    "Document / structure findings",
+    "문서·구조 지적",
+    "文档／结构问题",
+    "文書・構造の指摘"
+  ],
+  "구현·검증": [
+    "Implementation / verification",
+    "구현·검증",
+    "实现／验证",
+    "実装・検証"
+  ],
+  "우선순위·페이즈": [
+    "Priority / phases",
+    "우선순위·페이즈",
+    "优先级／阶段",
+    "優先度・フェーズ"
+  ],
+  "화면 갱신 중…": [
+    "Refreshing…",
+    "화면 갱신 중…",
+    "正在刷新…",
+    "画面を更新中…"
+  ],
+  "확인 중": [
+    "Checking",
+    "확인 중",
+    "检查中",
+    "確認中"
+  ],
+  "조회 중": [
+    "Loading",
+    "조회 중",
+    "加载中",
+    "読み込み中"
+  ],
+  "그리는 중…": [
+    "Rendering…",
+    "그리는 중…",
+    "正在绘制…",
+    "描画中…"
+  ],
+  "그리기 실패": [
+    "Rendering failed",
+    "그리기 실패",
+    "绘制失败",
+    "描画に失敗"
+  ],
+  "체크 실패": [
+    "Review failed",
+    "체크 실패",
+    "审核失败",
+    "確認に失敗"
+  ],
+  "작업 ID": [
+    "Job ID",
+    "작업 ID",
+    "任务 ID",
+    "作業 ID"
+  ],
+  "체크 완료": [
+    "Review complete",
+    "체크 완료",
+    "审核完成",
+    "確認完了"
+  ],
+  "남은 대기": [
+    "Still pending",
+    "남은 대기",
+    "剩余待处理",
+    "残りの待機"
+  ],
+  "문서 변경으로 사라진 단위": [
+    "Units removed by document changes",
+    "문서 변경으로 사라진 단위",
+    "因文档变更而移除的单元",
+    "文書変更で消えた単位"
+  ],
+  "바깥 형": [
+    "Outer type",
+    "바깥 형",
+    "外层类型",
+    "外側の型"
+  ],
+  "밖의 조상": [
+    "External ancestors",
+    "밖의 조상",
+    "外部祖先类型",
+    "外部の祖先型"
+  ],
+  "안의 형": [
+    "Nested types",
+    "안의 형",
+    "嵌套类型",
+    "内部の型"
+  ],
+  "형 보기": [
+    "View type",
+    "형 보기",
+    "查看类型",
+    "型を表示"
+  ],
+  "모듈 보기": [
+    "View module",
+    "모듈 보기",
+    "查看模块",
+    "モジュールを表示"
+  ],
+  "시그니처": [
+    "Signature",
+    "시그니처",
+    "签名",
+    "シグネチャ"
+  ],
+  "설명 글": [
+    "Descriptions",
+    "설명 글",
+    "说明",
+    "説明"
+  ],
+  "인터페이스": [
+    "Interface",
+    "인터페이스",
+    "接口",
+    "インターフェース"
+  ],
+  "클래스": [
+    "Class",
+    "클래스",
+    "类",
+    "クラス"
+  ],
+  "메서드": [
+    "Method",
+    "메서드",
+    "方法",
+    "メソッド"
+  ],
+  "페이즈": [
+    "Phase",
+    "페이즈",
+    "阶段",
+    "フェーズ"
+  ],
+  "변수": [
+    "Variables",
+    "변수",
+    "变量",
+    "変数"
+  ],
+  "참조": [
+    "References",
+    "참조",
+    "引用",
+    "参照"
+  ],
+  "계층": [
+    "Layer",
+    "계층",
+    "层",
+    "層"
+  ],
+  "모듈": [
+    "Module",
+    "모듈",
+    "模块",
+    "モジュール"
+  ],
+  "파일": [
+    "Files",
+    "파일",
+    "文件",
+    "ファイル"
+  ],
+  "멤버": [
+    "Members",
+    "멤버",
+    "成员",
+    "メンバー"
+  ],
+  "지적": [
+    "Findings",
+    "지적",
+    "问题",
+    "指摘"
+  ],
+  "선언": [
+    "Declarations",
+    "선언",
+    "声明",
+    "宣言"
+  ],
+  "상속": [
+    "Inheritance",
+    "상속",
+    "继承",
+    "継承"
+  ],
+  "구현": [
+    "Implementation",
+    "구현",
+    "实现",
+    "実装"
+  ],
+  "우회": [
+    "Bypass",
+    "우회",
+    "绕过",
+    "迂回"
+  ],
+  "위반": [
+    "Violations",
+    "위반",
+    "违规",
+    "違反"
+  ],
+  "판정": [
+    "Diagnosis",
+    "판정",
+    "判定",
+    "判定"
+  ],
+  "실시간": [
+    "Live",
+    "실시간",
+    "实时",
+    "ライブ"
+  ],
+  "문서": [
+    "Documents",
+    "문서",
+    "文档",
+    "文書"
+  ],
+  "틀림": [
+    "Incorrect",
+    "틀림",
+    "错误",
+    "誤り"
+  ],
+  "맞음": [
+    "Correct",
+    "맞음",
+    "正确",
+    "正しい"
+  ],
+  "불일치": [
+    "Mismatch",
+    "불일치",
+    "不一致",
+    "不一致"
+  ],
+  "미해결": [
+    "Unresolved",
+    "미해결",
+    "未解决",
+    "未解決"
+  ],
+  "해소": [
+    "Resolved",
+    "해소",
+    "已解决",
+    "解消"
+  ],
+  "신규": [
+    "New",
+    "신규",
+    "新增",
+    "新規"
+  ],
+  "수정": [
+    "Modified",
+    "수정",
+    "修改",
+    "修正"
+  ],
+  "삭제": [
+    "Deleted",
+    "삭제",
+    "删除",
+    "削除"
+  ],
+  "추가": [
+    "Added",
+    "추가",
+    "添加",
+    "追加"
+  ],
+  "다름": [
+    "Different",
+    "다름",
+    "不同",
+    "相違"
+  ],
+  "실패": [
+    "Failed",
+    "실패",
+    "失败",
+    "失敗"
+  ],
+  "완료": [
+    "Complete",
+    "완료",
+    "完成",
+    "完了"
+  ],
+  "끝남": [
+    "Finished",
+    "끝남",
+    "已结束",
+    "終了"
+  ],
+  "재발": [
+    "Recurred",
+    "재발",
+    "复发",
+    "再発"
+  ],
+  "선택": [
+    "Selected",
+    "선택",
+    "选择",
+    "選択"
+  ],
+  "전체": [
+    "All",
+    "전체",
+    "全部",
+    "すべて"
+  ],
+  "지금": [
+    "Current",
+    "지금",
+    "当前",
+    "現在"
+  ],
+  "다음": [
+    "Next",
+    "다음",
+    "下一项",
+    "次"
+  ],
+  "이전": [
+    "Previous",
+    "이전",
+    "上一项",
+    "前"
+  ],
+  "없음": [
+    "None",
+    "없음",
+    "无",
+    "なし"
+  ],
+  "취소": [
+    "Cancel",
+    "취소",
+    "取消",
+    "キャンセル"
+  ],
+  "거절": [
+    "Reject",
+    "거절",
+    "拒绝",
+    "拒否"
+  ],
+  "상태": [
+    "State",
+    "상태",
+    "状态",
+    "状態"
+  ],
+  "계획": [
+    "Plan",
+    "계획",
+    "计划",
+    "計画"
+  ],
+  "요약": [
+    "Summary",
+    "요약",
+    "摘要",
+    "概要"
+  ],
+  "참고": [
+    "Note",
+    "참고",
+    "参考",
+    "参考"
+  ],
+  "쓰기": [
+    "Write",
+    "쓰기",
+    "写入",
+    "書き込み"
+  ],
+  "읽기": [
+    "Read",
+    "읽기",
+    "读取",
+    "読み取り"
+  ],
+  "부름": [
+    "Call",
+    "부름",
+    "调用",
+    "呼び出し"
+  ],
+  "보류": [
+    "Defer",
+    "보류",
+    "暂缓",
+    "保留"
+  ],
+  "지우기": [
+    "Remove",
+    "지우기",
+    "移除",
+    "削除"
+  ],
+  "넣기": [
+    "Insert",
+    "넣기",
+    "插入",
+    "挿入"
+  ],
+  "이유": [
+    "Reason",
+    "이유",
+    "原因",
+    "理由"
+  ],
+  "루트": [
+    "Root",
+    "루트",
+    "根目录",
+    "ルート"
+  ],
+  "대기": [
+    "Pending",
+    "대기",
+    "待处理",
+    "待機"
+  ],
+  "기준": [
+    "Basis",
+    "기준",
+    "依据",
+    "基準"
+  ],
+  "변경": [
+    "Changes",
+    "변경",
+    "变更",
+    "変更"
+  ],
+  "묶음": [
+    "Groups",
+    "묶음",
+    "组",
+    "グループ"
+  ],
+  "발생": [
+    "Occurrences",
+    "발생",
+    "次发生",
+    "発生"
+  ],
+  "필터": [
+    "Filter",
+    "필터",
+    "筛选",
+    "絞り込み"
+  ],
+  "체크": [
+    "Review",
+    "체크",
+    "审核",
+    "確認"
+  ],
+  "새": [
+    "New",
+    "새",
+    "新",
+    "新規"
+  ],
+  "줄": [
+    " lines",
+    "줄",
+    "行",
+    "行"
+  ],
+  "곳": [
+    " locations",
+    "곳",
+    "处",
+    "か所"
+  ],
+  "개": [
+    " items",
+    "개",
+    "个",
+    "件"
+  ],
+  "건": [
+    " items",
+    "건",
+    "项",
+    "件"
+  ],
+  "글": [
+    "Text",
+    "글",
+    "文本",
+    "文章"
+  ],
+  "형": [
+    "Type",
+    "형",
+    "类型",
+    "型"
+  ],
+  "판 ": [
+    "Revision ",
+    "판 ",
+    "版本 ",
+    "版 "
+  ],
+  " 외 ": [
+    " and ",
+    " 외 ",
+    " 及 ",
+    " ほか "
+  ],
+  "건을 ": [
+    " items as ",
+    "건을 ",
+    " 项作为 ",
+    " 件を "
+  ],
+  "으로 체크합니다.": [
+    " for review.",
+    "으로 체크합니다.",
+    "进行审核。",
+    "として確認します。"
+  ],
+  "실행을 누르면 ": [
+    "Run sends ",
+    "실행을 누르면 ",
+    "点击执行将发送 ",
+    "実行すると "
+  ],
+  "개 묶음으로 전달합니다.": [
+    " groups.",
+    "개 묶음으로 전달합니다.",
+    "组。",
+    "グループで送信します。"
+  ],
+  "건 제외": [
+    " items excluded",
+    "건 제외",
+    "项除外",
+    "件を除外"
+  ],
+  "하위 전체": [
+    "All descendants",
+    "하위 전체",
+    "全部下级",
+    "配下すべて"
+  ],
+  "앞의 ": [
+    "First ",
+    "앞의 ",
+    "前 ",
+    "先頭の "
+  ],
+  "건만": [
+    " items only",
+    "건만",
+    "项",
+    "件のみ"
+  ],
+  "코드": [
+    "Code",
+    "코드",
+    "代码",
+    "コード"
+  ],
+  "폴더": [
+    "Folder",
+    "폴더",
+    "文件夹",
+    "フォルダー"
+  ],
+  "트리": [
+    "Tree",
+    "트리",
+    "树",
+    "ツリー"
+  ],
+  "보기": [
+    "View",
+    "보기",
+    "查看",
+    "表示"
+  ],
+  "로": [
+    " via",
+    "로",
+    "通过",
+    "経由"
+  ],
+  " · 판정 ": [
+    " · Diagnosis ",
+    " · 판정 ",
+    " · 判定 ",
+    " · 判定 "
+  ],
+  " · 실시간": [
+    " · Live",
+    " · 실시간",
+    " · 实时",
+    " · ライブ"
+  ],
+  " · 파일 ": [
+    " · Files ",
+    " · 파일 ",
+    " · 文件 ",
+    " · ファイル "
+  ],
+  " · 선언 ": [
+    " · Declarations ",
+    " · 선언 ",
+    " · 声明 ",
+    " · 宣言 "
+  ],
+  " · 참조 ": [
+    " · References ",
+    " · 참조 ",
+    " · 引用 ",
+    " · 参照 "
+  ],
+  " · 전체 미해결 ": [
+    " · All unresolved ",
+    " · 전체 미해결 ",
+    " · 全部未解决 ",
+    " · 未解決の合計 "
+  ],
+  " · 표시 판 지적 발생 ": [
+    " · Occurrences in displayed revision ",
+    " · 표시 판 지적 발생 ",
+    " · 显示版本中的问题次数 ",
+    " · 表示中の版の指摘発生数 "
+  ],
+  "· 미구현·검증 미완료 코드 대상 ": [
+    "· Implementation / verification targets ",
+    "· 미구현·검증 미완료 코드 대상 ",
+    "· 未实现／未验证代码目标 ",
+    "· 未実装・未検証のコード対象 "
+  ],
+  "· 판정 대기": [
+    "· Awaiting diagnosis",
+    "· 판정 대기",
+    "· 待判定",
+    "· 判定待ち"
+  ],
+  "[\"계층 ": [
+    "[\"Layer ",
+    "[\"계층 ",
+    "[\"层 ",
+    "[\"層 "
+  ],
+  "<br/>파일 ": [
+    "<br/>Files ",
+    "<br/>파일 ",
+    "<br/>文件 ",
+    "<br/>ファイル "
+  ],
+  " · 모듈 ": [
+    " · Module ",
+    " · 모듈 ",
+    " · 模块 ",
+    " · モジュール "
+  ],
+  "<br/>지적 ": [
+    "<br/>Findings ",
+    "<br/>지적 ",
+    "<br/>问题 ",
+    "<br/>指摘 "
+  ],
+  "DOC[\"문서<br/>지적 ": [
+    "DOC[\"Documents<br/>Findings ",
+    "DOC[\"문서<br/>지적 ",
+    "DOC[\"文档<br/>问题 ",
+    "DOC[\"文書<br/>指摘 "
+  ],
+  "OUT[\"계층 밖 파일<br/>지적 ": [
+    "OUT[\"Files outside layers<br/>Findings ",
+    "OUT[\"계층 밖 파일<br/>지적 ",
+    "OUT[\"层外文件<br/>问题 ",
+    "OUT[\"層外のファイル<br/>指摘 "
+  ],
+  " -->|\"참조 ": [
+    " -->|\"References ",
+    " -->|\"참조 ",
+    " -->|\"引用 ",
+    " -->|\"参照 "
+  ],
+  " · 위반 ": [
+    " · Violations ",
+    " · 위반 ",
+    " · 违规 ",
+    " · 違反 "
+  ],
+  "문서 지적": [
+    "Documents Findings",
+    "문서 지적",
+    "文档 问题",
+    "文書 指摘"
+  ],
+  "계층 밖 파일 지적": [
+    "Files outside layers Findings",
+    "계층 밖 파일 지적",
+    "层外文件 问题",
+    "層外のファイル 指摘"
+  ],
+  "subgraph LL[\"계층 ": [
+    "subgraph LL[\"Layer ",
+    "subgraph LL[\"계층 ",
+    "subgraph LL[\"层 ",
+    "subgraph LL[\"層 "
+  ],
+  " · 지적 ": [
+    " · Findings ",
+    " · 지적 ",
+    " · 问题 ",
+    " · 指摘 "
+  ],
+  "계층 ": [
+    "Layer ",
+    "계층 ",
+    "层 ",
+    "層 "
+  ],
+  " 지적": [
+    " Findings",
+    " 지적",
+    " 问题",
+    " 指摘"
+  ],
+  "모듈 ": [
+    "Module ",
+    "모듈 ",
+    "模块 ",
+    "モジュール "
+  ],
+  " · 계층 안 참조선은 '모든 참조선'으로 켠다": [
+    " · Use All references to show edges within layers",
+    " · 계층 안 참조선은 '모든 참조선'으로 켠다",
+    " · 使用“所有引用”显示层内连线",
+    " · 層内の線は「すべての参照」で表示します"
+  ],
+  " · 멤버 ": [
+    " · Members ",
+    " · 멤버 ",
+    " · 成员 ",
+    " · メンバー "
+  ],
+  "<br/>계층 ": [
+    "<br/>Layer ",
+    "<br/>계층 ",
+    "<br/>层 ",
+    "<br/>層 "
+  ],
+  "모듈 지적": [
+    "Module Findings",
+    "모듈 지적",
+    "模块 问题",
+    "モジュール 指摘"
+  ],
+  "형 지적": [
+    "Type Findings",
+    "형 지적",
+    "类型 问题",
+    "型 指摘"
+  ],
+  "멤버 ": [
+    "Members ",
+    "멤버 ",
+    "成员 ",
+    "メンバー "
+  ],
+  " · 바깥 형 ": [
+    " · Outer type ",
+    " · 바깥 형 ",
+    " · 外层类型 ",
+    " · 外側の型 "
+  ],
+  " · 형 안 참조선은 '모든 참조선'으로 켠다": [
+    " · Use All references to show edges within types",
+    " · 형 안 참조선은 '모든 참조선'으로 켠다",
+    " · 使用“所有引用”显示类型内连线",
+    " · 型内の線は「すべての参照」で表示します"
+  ],
+  "<br/>미구현·검증 미완료 ": [
+    "<br/>Implementation / verification pending ",
+    "<br/>미구현·검증 미완료 ",
+    "<br/>未实现／未验证 ",
+    "<br/>未実装・未検証 "
+  ],
+  "\">W6 · 문서 분리 ": [
+    "\">W6 · Document split ",
+    "\">W6 · 문서 분리 ",
+    "\">W6 · 文档拆分 ",
+    "\">W6 · 文書分割 "
+  ],
+  "건</button>": [
+    " items</button>",
+    "건</button>",
+    "项</button>",
+    "件</button>"
+  ],
+  "체크 대기 ": [
+    "Awaiting review ",
+    "체크 대기 ",
+    "待审核 ",
+    "確認待ち "
+  ],
+  " · 틀림 ": [
+    " · Incorrect ",
+    " · 틀림 ",
+    " · 错误 ",
+    " · 誤り "
+  ],
+  "개<span class=\"variable-summary\">미확인 ": [
+    " items<span class=\"variable-summary\">Unverified ",
+    "개<span class=\"variable-summary\">미확인 ",
+    "个<span class=\"variable-summary\">未确认 ",
+    "件<span class=\"variable-summary\">未確認 "
+  ],
+  "개</span></summary>": [
+    " items</span></summary>",
+    "개</span></summary>",
+    "个</span></summary>",
+    "件</span></summary>"
+  ],
+  "\"><span class=\"chip cw\" title=\"지역 변수 자체의 문서 대조는 미확인\">미확인</span><span>": [
+    "\"><span class=\"chip cw\" title=\"Local variable document comparison is unverified\">Unverified</span><span>",
+    "\"><span class=\"chip cw\" title=\"지역 변수 자체의 문서 대조는 미확인\">미확인</span><span>",
+    "\"><span class=\"chip cw\" title=\"局部变量的文档对照尚未验证\">未确认</span><span>",
+    "\"><span class=\"chip cw\" title=\"ローカル変数自体の文書照合は未確認\">未確認</span><span>"
+  ],
+  "\"><summary>변수 ": [
+    "\"><summary>Variables ",
+    "\"><summary>변수 ",
+    "\"><summary>变量 ",
+    "\"><summary>変数 "
+  ],
+  "개</summary><div ": [
+    " items</summary><div ",
+    "개</summary><div ",
+    "个</summary><div ",
+    "件</summary><div "
+  ],
+  "<details class=\"varlist variable-family global-family\"><summary class=\"glabel\">전역·정적 변수 ": [
+    "<details class=\"varlist variable-family global-family\"><summary class=\"glabel\">Global / static variables ",
+    "<details class=\"varlist variable-family global-family\"><summary class=\"glabel\">전역·정적 변수 ",
+    "<details class=\"varlist variable-family global-family\"><summary class=\"glabel\">全局／静态变量 ",
+    "<details class=\"varlist variable-family global-family\"><summary class=\"glabel\">グローバル・静的変数 "
+  ],
+  "개<span class=\"variable-summary\">지적 ": [
+    " items<span class=\"variable-summary\">Findings ",
+    "개<span class=\"variable-summary\">지적 ",
+    "个<span class=\"variable-summary\">问题 ",
+    "件<span class=\"variable-summary\">指摘 "
+  ],
+  "<details class=\"varlist variable-family field-family\"><summary class=\"glabel\">클래스 변수 ": [
+    "<details class=\"varlist variable-family field-family\"><summary class=\"glabel\">Class fields ",
+    "<details class=\"varlist variable-family field-family\"><summary class=\"glabel\">클래스 변수 ",
+    "<details class=\"varlist variable-family field-family\"><summary class=\"glabel\">类字段 ",
+    "<details class=\"varlist variable-family field-family\"><summary class=\"glabel\">クラス変数 "
+  ],
+  "[코드 없음] ": [
+    "[No code] ",
+    "[코드 없음] ",
+    "[无代码] ",
+    "[コードなし] "
+  ],
+  "\">형 보기 →</a>": [
+    "\">View type →</a>",
+    "\">형 보기 →</a>",
+    "\">查看类型 →</a>",
+    "\">型を表示 →</a>"
+  ],
+  "인터페이스 ": [
+    "Interface ",
+    "인터페이스 ",
+    "接口 ",
+    "インターフェース "
+  ],
+  " · 클래스 ": [
+    " · Class ",
+    " · 클래스 ",
+    " · 类 ",
+    " · クラス "
+  ],
+  " · 메서드 ": [
+    " · Method ",
+    " · 메서드 ",
+    " · 方法 ",
+    " · メソッド "
+  ],
+  " · 변수 ": [
+    " · Variables ",
+    " · 변수 ",
+    " · 变量 ",
+    " · 変数 "
+  ],
+  "\">모듈 보기 →</a>": [
+    "\">View module →</a>",
+    "\">모듈 보기 →</a>",
+    "\">查看模块 →</a>",
+    "\">モジュールを表示 →</a>"
+  ],
+  "<div class=\"cgroup over\"><div class=\"glabel\">형 ": [
+    "<div class=\"cgroup over\"><div class=\"glabel\">Type ",
+    "<div class=\"cgroup over\"><div class=\"glabel\">형 ",
+    "<div class=\"cgroup over\"><div class=\"glabel\">类型 ",
+    "<div class=\"cgroup over\"><div class=\"glabel\">型 "
+  ],
+  "개 — S1 ": [
+    " items — S1 ",
+    "개 — S1 ",
+    "个 — S1 ",
+    "件 — S1 "
+  ],
+  "<div class=\"note\"><button class=\"document-issue\" data-go=\"c:docs\">문서 분리 지적 ": [
+    "<div class=\"note\"><button class=\"document-issue\" data-go=\"c:docs\">Document split findings ",
+    "<div class=\"note\"><button class=\"document-issue\" data-go=\"c:docs\">문서 분리 지적 ",
+    "<div class=\"note\"><button class=\"document-issue\" data-go=\"c:docs\">文档拆分问题 ",
+    "<div class=\"note\"><button class=\"document-issue\" data-go=\"c:docs\">文書分割の指摘 "
+  ],
+  "건 전체 보기</button> 폴더의 문서 분리 표식을 누르면 우측에 원인과 문서 위치가 표시됩니다.</div>": [
+    " items All View</button> Select a folder's document split marker to show its reason and document location on the right.</div>",
+    "건 전체 보기</button> 폴더의 문서 분리 표식을 누르면 우측에 원인과 문서 위치가 표시됩니다.</div>",
+    "项 全部 查看</button> 选择文件夹的文档拆分标记，可在右侧查看原因和文档位置。</div>",
+    "件 すべて 表示</button> フォルダーの文書分割マークを選ぶと、右側に理由と文書の位置を表示します。</div>"
+  ],
+  "<section class=\"document-unlinked\"><h3>소스 폴더 미연결 · ": [
+    "<section class=\"document-unlinked\"><h3>Unlinked source folders · ",
+    "<section class=\"document-unlinked\"><h3>소스 폴더 미연결 · ",
+    "<section class=\"document-unlinked\"><h3>未关联的源文件夹 · ",
+    "<section class=\"document-unlinked\"><h3>未接続のソースフォルダー · "
+  ],
+  "건</h3><p>문서의 소유 선언으로 코드맵 폴더를 찾지 못했습니다.</p>": [
+    " items</h3><p>Document ownership could not be matched to a code map folder.</p>",
+    "건</h3><p>문서의 소유 선언으로 코드맵 폴더를 찾지 못했습니다.</p>",
+    "项</h3><p>无法根据文档的所属声明找到代码地图文件夹。</p>",
+    "件</h3><p>文書の所有宣言に対応するコードマップのフォルダーが見つかりません。</p>"
+  ],
+  "문서 변경 ": [
+    "Document changes ",
+    "문서 변경 ",
+    "文档变更 ",
+    "文書変更 "
+  ],
+  " · 설명 글 ": [
+    " · Descriptions ",
+    " · 설명 글 ",
+    " · 说明 ",
+    " · 説明 "
+  ],
+  " · I1 인터페이스 우회 ": [
+    " · I1 Interface bypass ",
+    " · I1 인터페이스 우회 ",
+    " · I1 接口绕过 ",
+    " · I1 インターフェース迂回 "
+  ],
+  " · I2 구현 없는 인터페이스 ": [
+    " · I2 Interfaces without implementation ",
+    " · I2 구현 없는 인터페이스 ",
+    " · I2 无实现的接口 ",
+    " · I2 実装のないインターフェース "
+  ],
+  " · I3 인터페이스 없는 폴더 경계 ": [
+    " · I3 Folder boundaries without interfaces ",
+    " · I3 인터페이스 없는 폴더 경계 ",
+    " · I3 缺少接口的文件夹边界 ",
+    " · I3 インターフェースのないフォルダー境界 "
+  ],
+  " · I4 파이프라인 위반 ": [
+    " · I4 Pipeline violations ",
+    " · I4 파이프라인 위반 ",
+    " · I4 流水线违规 ",
+    " · I4 パイプライン違反 "
+  ],
+  "<br/>멤버 ": [
+    "<br/>Members ",
+    "<br/>멤버 ",
+    "<br/>成员 ",
+    "<br/>メンバー "
+  ],
+  "<br/>구현 ": [
+    "<br/>Implementation ",
+    "<br/>구현 ",
+    "<br/>实现 ",
+    "<br/>実装 "
+  ],
+  " · I2 구현 없음": [
+    " · I2 No implementation",
+    " · I2 구현 없음",
+    " · I2 无实现",
+    " · I2 実装なし"
+  ],
+  "<br/>밖에서 쓰는 멤버 ": [
+    "<br/>Externally used members ",
+    "<br/>밖에서 쓰는 멤버 ",
+    "<br/>外部使用的成员 ",
+    "<br/>外部から使うメンバー "
+  ],
+  "<br/>메서드 ": [
+    "<br/>Method ",
+    "<br/>메서드 ",
+    "<br/>方法 ",
+    "<br/>メソッド "
+  ],
+  "<br/>I1 우회 ": [
+    "<br/>I1 Bypass ",
+    "<br/>I1 우회 ",
+    "<br/>I1 绕过 ",
+    "<br/>I1 迂回 "
+  ],
+  "subgraph MI[\"인터페이스 — ": [
+    "subgraph MI[\"Interface — ",
+    "subgraph MI[\"인터페이스 — ",
+    "subgraph MI[\"接口 — ",
+    "subgraph MI[\"インターフェース — "
+  ],
+  "subgraph MC[\"클래스\"]": [
+    "subgraph MC[\"Class\"]",
+    "subgraph MC[\"클래스\"]",
+    "subgraph MC[\"类\"]",
+    "subgraph MC[\"クラス\"]"
+  ],
+  "[\"[코드 없음] ": [
+    "[\"[No code] ",
+    "[\"[코드 없음] ",
+    "[\"[无代码] ",
+    "[\"[コードなし] "
+  ],
+  "I1 우회 ": [
+    "I1 Bypass ",
+    "I1 우회 ",
+    "I1 绕过 ",
+    "I1 迂回 "
+  ],
+  " -.->|구현| ": [
+    " -.->|Implementation| ",
+    " -.->|구현| ",
+    " -.->|实现| ",
+    " -.->|実装| "
+  ],
+  " -->|상속| ": [
+    " -->|Inheritance| ",
+    " -->|상속| ",
+    " -->|继承| ",
+    " -->|継承| "
+  ],
+  " · 밖에서 쓰는 형 ": [
+    " · Externally used types ",
+    " · 밖에서 쓰는 형 ",
+    " · 外部使用的类型 ",
+    " · 外部から使う型 "
+  ],
+  " · 코드 없는 형 ": [
+    " · Types without code ",
+    " · 코드 없는 형 ",
+    " · 缺少代码的类型 ",
+    " · コードのない型 "
+  ],
+  "[\"구현 ": [
+    "[\"Implementation ",
+    "[\"구현 ",
+    "[\"实现 ",
+    "[\"実装 "
+  ],
+  "[\"상속 ": [
+    "[\"Inheritance ",
+    "[\"상속 ",
+    "[\"继承 ",
+    "[\"継承 "
+  ],
+  " · 밖의 조상 ": [
+    " · External ancestors ",
+    " · 밖의 조상 ",
+    " · 外部祖先类型 ",
+    " · 外部の祖先型 "
+  ],
+  "subgraph TF[\"메서드\"]": [
+    "subgraph TF[\"Method\"]",
+    "subgraph TF[\"메서드\"]",
+    "subgraph TF[\"方法\"]",
+    "subgraph TF[\"メソッド\"]"
+  ],
+  "subgraph TV[\"변수\"]": [
+    "subgraph TV[\"Variables\"]",
+    "subgraph TV[\"변수\"]",
+    "subgraph TV[\"变量\"]",
+    "subgraph TV[\"変数\"]"
+  ],
+  "subgraph TN[\"안의 형\"]": [
+    "subgraph TN[\"Nested types\"]",
+    "subgraph TN[\"안의 형\"]",
+    "subgraph TN[\"嵌套类型\"]",
+    "subgraph TN[\"内部の型\"]"
+  ],
+  "TT -.->|구현| i": [
+    "TT -.->|Implementation| i",
+    "TT -.->|구현| i",
+    "TT -.->|实现| i",
+    "TT -.->|実装| i"
+  ],
+  "TT -->|상속| i": [
+    "TT -->|Inheritance| i",
+    "TT -->|상속| i",
+    "TT -->|继承| i",
+    "TT -->|継承| i"
+  ],
+  "클래스 지적": [
+    "Class Findings",
+    "클래스 지적",
+    "类 问题",
+    "クラス 指摘"
+  ],
+  "메서드 ": [
+    "Method ",
+    "메서드 ",
+    "方法 ",
+    "メソッド "
+  ],
+  " · 코드 없는 멤버 ": [
+    " · Members without code ",
+    " · 코드 없는 멤버 ",
+    " · 缺少代码的成员 ",
+    " · コードのないメンバー "
+  ],
+  " · 멤버가 많아 참조선은 '모든 참조선'으로 켠다": [
+    " · Use All references to show edges for large member sets",
+    " · 멤버가 많아 참조선은 '모든 참조선'으로 켠다",
+    " · 成员较多，请使用“所有引用”显示连线",
+    " · メンバーが多いため「すべての参照」で線を表示します"
+  ],
+  " · 실선 = 읽기, 굵은 주황 = 쓰기, 점선 = 호출": [
+    " · Solid = read; bold orange = write; dashed = call",
+    " · 실선 = 읽기, 굵은 주황 = 쓰기, 점선 = 호출",
+    " · 实线＝读取，橙色粗线＝写入，虚线＝调用",
+    " · 実線＝読み取り、太いオレンジ＝書き込み、点線＝呼び出し"
+  ],
+  "==>|쓰기|": [
+    "==>|Write|",
+    "==>|쓰기|",
+    "==>|写入|",
+    "==>|書き込み|"
+  ],
+  "-->|읽기|": [
+    "-->|Read|",
+    "-->|읽기|",
+    "-->|读取|",
+    "-->|読み取り|"
+  ],
+  "-.->|부름|": [
+    "-.->|Call|",
+    "-.->|부름|",
+    "-.->|调用|",
+    "-.->|呼び出し|"
+  ],
+  "변경(": [
+    "Changes(",
+    "변경(",
+    "变更(",
+    "変更("
+  ],
+  "<section class=\"planned-code\"><h3>미구현·검증 미완료 — ": [
+    "<section class=\"planned-code\"><h3>Implementation / verification pending — ",
+    "<section class=\"planned-code\"><h3>미구현·검증 미완료 — ",
+    "<section class=\"planned-code\"><h3>未实现／未验证 — ",
+    "<section class=\"planned-code\"><h3>未実装・未検証 — "
+  ],
+  "곳</h3><div class=\"note\">문서 계약과 현재 코드의 미해결 지적입니다. 지적 사유와 대조 기준, 해당 코드 본문을 함께 표시합니다.</div>": [
+    " locations</h3><div class=\"note\">Unresolved findings compare document contracts with current code. Each item shows the reason, comparison basis, and source.</div>",
+    "곳</h3><div class=\"note\">문서 계약과 현재 코드의 미해결 지적입니다. 지적 사유와 대조 기준, 해당 코드 본문을 함께 표시합니다.</div>",
+    "处</h3><div class=\"note\">未解决的问题来自文档约束与当前代码的对照。每项显示原因、对照依据和源代码。</div>",
+    "か所</h3><div class=\"note\">文書契約と現在のコードを照合した未解決の指摘です。理由、照合基準、コードを表示します。</div>"
+  ],
+  "<div class=\"note\">승인본 기준 ": [
+    "<div class=\"note\">Approved basis ",
+    "<div class=\"note\">승인본 기준 ",
+    "<div class=\"note\">批准版本依据 ",
+    "<div class=\"note\">承認版の基準 "
+  ],
+  "<div class=\"target\"><b>대조 기준 · 문서 계약</b></div>": [
+    "<div class=\"target\"><b>Comparison basis · document contract</b></div>",
+    "<div class=\"target\"><b>대조 기준 · 문서 계약</b></div>",
+    "<div class=\"target\"><b>对照依据 · 文档约束</b></div>",
+    "<div class=\"target\"><b>照合基準・文書契約</b></div>"
+  ],
+  "<h2>문서 반영 진행 상태</h2>": [
+    "<h2>Document conformance progress</h2>",
+    "<h2>문서 반영 진행 상태</h2>",
+    "<h2>文档落实进度</h2>",
+    "<h2>文書反映の進捗</h2>"
+  ],
+  "<div class=\"sel\">전체 미해결 ": [
+    "<div class=\"sel\">All unresolved ",
+    "<div class=\"sel\">전체 미해결 ",
+    "<div class=\"sel\">全部未解决 ",
+    "<div class=\"sel\">未解決の合計 "
+  ],
+  "건 · 재검사 대기 ": [
+    " items · Awaiting recheck ",
+    "건 · 재검사 대기 ",
+    "项 · 待重新检查 ",
+    "件 · 再検査待ち "
+  ],
+  "건 · 해소 ": [
+    " items · Resolved ",
+    "건 · 해소 ",
+    "项 · 已解决 ",
+    "件 · 解消 "
+  ],
+  "건</div>": [
+    " items</div>",
+    "건</div>",
+    "项</div>",
+    "件</div>"
+  ],
+  "<div class=\"note\">선언 누락·문서 불일치·코드 품질·구조·규칙·승인·파싱 지적을 모두 미해결에 포함합니다.</div>": [
+    "<div class=\"note\">Unresolved findings include missing declarations, document differences, quality, structure, rules, approvals, and parsing.</div>",
+    "<div class=\"note\">선언 누락·문서 불일치·코드 품질·구조·규칙·승인·파싱 지적을 모두 미해결에 포함합니다.</div>",
+    "<div class=\"note\">未解决问题包括声明缺失、文档差异、代码质量、结构、规则、批准和解析问题。</div>",
+    "<div class=\"note\">宣言漏れ、文書の不一致、品質、構造、規則、承認、解析の指摘を未解決として扱います。</div>"
+  ],
+  "<details><summary>지적 발생 건수에 포함된 대조 차단 오류 ": [
+    "<details><summary>Blocking comparison errors included in occurrences ",
+    "<details><summary>지적 발생 건수에 포함된 대조 차단 오류 ",
+    "<details><summary>计入问题次数的对照阻断错误 ",
+    "<details><summary>発生数に含まれる照合の阻害エラー "
+  ],
+  "건 — 펼쳐 보기</summary>": [
+    " items — Expand</summary>",
+    "건 — 펼쳐 보기</summary>",
+    "项 — 展开</summary>",
+    "件 — 展開</summary>"
+  ],
+  "<div class=\"note\">문서 형식·파싱 문제로 코드 대조가 완료되지 않았습니다. 이전 지적은 해소로 계산하지 않습니다.</div>": [
+    "<div class=\"note\">Document or parsing errors prevented comparison. Previous findings remain unresolved.</div>",
+    "<div class=\"note\">문서 형식·파싱 문제로 코드 대조가 완료되지 않았습니다. 이전 지적은 해소로 계산하지 않습니다.</div>",
+    "<div class=\"note\">文档格式或解析错误导致对照未完成。之前的问题仍未解决。</div>",
+    "<div class=\"note\">文書形式または解析の問題で照合が完了していません。以前の指摘は解消済みとしません。</div>"
+  ],
+  "<h2>코드 유지 검사</h2><div class=\"sel\">기준 ": [
+    "<h2>Code preservation check</h2><div class=\"sel\">Basis ",
+    "<h2>코드 유지 검사</h2><div class=\"sel\">기준 ",
+    "<h2>代码保持检查</h2><div class=\"sel\">依据 ",
+    "<h2>コード維持の検査</h2><div class=\"sel\">基準 "
+  ],
+  " · 감시 코드 ": [
+    " · Watched code ",
+    " · 감시 코드 ",
+    " · 监视代码 ",
+    " · 監視コード "
+  ],
+  "개<br/>": [
+    " items<br/>",
+    "개<br/>",
+    "个<br/>",
+    "件<br/>"
+  ],
+  "코드 변경 ": [
+    "Code changes ",
+    "코드 변경 ",
+    "代码变更 ",
+    "コード変更 "
+  ],
+  "개 · 허용되지 않은 변경 ": [
+    " items · Unauthorized changes ",
+    "개 · 허용되지 않은 변경 ",
+    "个 · 未授权变更 ",
+    "件 · 許可されていない変更 "
+  ],
+  "<details><summary>허용된 수정 ": [
+    "<details><summary>Permitted edits ",
+    "<details><summary>허용된 수정 ",
+    "<details><summary>允许的修改 ",
+    "<details><summary>許可された編集 "
+  ],
+  "건 — 전체 펼쳐 보기</summary>": [
+    " items — Expand all</summary>",
+    "건 — 전체 펼쳐 보기</summary>",
+    "项 — 展开全部</summary>",
+    "件 — すべて展開</summary>"
+  ],
+  "<h2>코드 수정 수락 요청 ": [
+    "<h2>Code edit approval requests ",
+    "<h2>코드 수정 수락 요청 ",
+    "<h2>代码修改批准请求 ",
+    "<h2>コード編集の承認要求 "
+  ],
+  "건</h2>": [
+    " items</h2>",
+    "건</h2>",
+    "项</h2>",
+    "件</h2>"
+  ],
+  "\" data-accept=\"true\">이 코드 수정 수락</button><button data-request=\"": [
+    "\" data-accept=\"true\">Approve this code edit</button><button data-request=\"",
+    "\" data-accept=\"true\">이 코드 수정 수락</button><button data-request=\"",
+    "\" data-accept=\"true\">批准此代码修改</button><button data-request=\"",
+    "\" data-accept=\"true\">このコード編集を承認</button><button data-request=\""
+  ],
+  "\" data-accept=\"false\">거절</button></div>": [
+    "\" data-accept=\"false\">Reject</button></div>",
+    "\" data-accept=\"false\">거절</button></div>",
+    "\" data-accept=\"false\">拒绝</button></div>",
+    "\" data-accept=\"false\">拒否</button></div>"
+  ],
+  "</b> · 선택한 위치의 미해결</div>": [
+    "</b> · Unresolved at selected location</div>",
+    "</b> · 선택한 위치의 미해결</div>",
+    "</b> · 所选位置的未解决问题</div>",
+    "</b> · 選択位置の未解決</div>"
+  ],
+  "</b> · 선택한 코드에 관련된 문서 지적</div>": [
+    "</b> · Document findings for selected code</div>",
+    "</b> · 선택한 코드에 관련된 문서 지적</div>",
+    "</b> · 所选代码的文档问题</div>",
+    "</b> · 選択コードに関連する文書の指摘</div>"
+  ],
+  "</span> 지적 ": [
+    "</span> Findings ",
+    "</span> 지적 ",
+    "</span> 问题 ",
+    "</span> 指摘 "
+  ],
+  "<b>코드 · 현재 기준</b>": [
+    "<b>Code · Current basis</b>",
+    "<b>코드 · 현재 기준</b>",
+    "<b>代码 · 当前依据</b>",
+    "<b>コード · 現在の基準</b>"
+  ],
+  "<div class=\"target\"><b>대응 문서 ": [
+    "<div class=\"target\"><b>Matching documents ",
+    "<div class=\"target\"><b>대응 문서 ",
+    "<div class=\"target\"><b>对应文档 ",
+    "<div class=\"target\"><b>対応文書 "
+  ],
+  " · 관련 파일의 등록 위치": [
+    " · Registered locations in related files",
+    " · 관련 파일의 등록 위치",
+    " · 相关文件的注册位置",
+    " · 関連ファイルの登録位置"
+  ],
+  "</div><div class=\"target\"><b>이 문서의 누락·차이</b></div>": [
+    "</div><div class=\"target\"><b>Missing items / differences in this document</b></div>",
+    "</div><div class=\"target\"><b>이 문서의 누락·차이</b></div>",
+    "</div><div class=\"target\"><b>此文档的缺失项／差异</b></div>",
+    "</div><div class=\"target\"><b>この文書の不足・差異</b></div>"
+  ],
+  "<div class=\"unit\"><div class=\"head\"><b>대응 문서가 없는 지적</b></div>": [
+    "<div class=\"unit\"><div class=\"head\"><b>Findings without matching documents</b></div>",
+    "<div class=\"unit\"><div class=\"head\"><b>대응 문서가 없는 지적</b></div>",
+    "<div class=\"unit\"><div class=\"head\"><b>缺少对应文档的问题</b></div>",
+    "<div class=\"unit\"><div class=\"head\"><b>対応文書のない指摘</b></div>"
+  ],
+  "<div class=\"note\">코드 위치 ": [
+    "<div class=\"note\">Code locations ",
+    "<div class=\"note\">코드 위치 ",
+    "<div class=\"note\">代码位置 ",
+    "<div class=\"note\">コード位置 "
+  ],
+  "곳 · 지적 ": [
+    " locations · Findings ",
+    "곳 · 지적 ",
+    "处 · 问题 ",
+    "か所 · 指摘 "
+  ],
+  "건. 같은 코드 위치의 지적과 대응 문서를 한 카드로 묶었습니다.</div>": [
+    " items. Findings and documents for the same code location share one card.</div>",
+    "건. 같은 코드 위치의 지적과 대응 문서를 한 카드로 묶었습니다.</div>",
+    "项. 同一代码位置的问题和对应文档归入一张卡片。</div>",
+    "件. 同じコード位置の指摘と対応文書を1枚のカードにまとめています。</div>"
+  ],
+  "<button id=\"comparison-more\">다음 100곳 보기 (100 / ": [
+    "<button id=\"comparison-more\">Show next 100 locations (100 / ",
+    "<button id=\"comparison-more\">다음 100곳 보기 (100 / ",
+    "<button id=\"comparison-more\">显示下 100 个位置 (100 / ",
+    "<button id=\"comparison-more\">次の100か所を表示 (100 / "
+  ],
+  "<details id=\"resolved-details\"><summary>해소된 코드 위치 ": [
+    "<details id=\"resolved-details\"><summary>Resolved code locations ",
+    "<details id=\"resolved-details\"><summary>해소된 코드 위치 ",
+    "<details id=\"resolved-details\"><summary>已解决的代码位置 ",
+    "<details id=\"resolved-details\"><summary>解消済みのコード位置 "
+  ],
+  "곳</summary><div class=\"resolved-items\"></div></details>": [
+    " locations</summary><div class=\"resolved-items\"></div></details>",
+    "곳</summary><div class=\"resolved-items\"></div></details>",
+    "处</summary><div class=\"resolved-items\"></div></details>",
+    "か所</summary><div class=\"resolved-items\"></div></details>"
+  ],
+  "다음 100곳 보기 (": [
+    "Show next 100 locations (",
+    "다음 100곳 보기 (",
+    "显示下 100 个位置 (",
+    "次の100か所を表示 ("
+  ],
+  "줄</span></button>": [
+    " lines</span></button>",
+    "줄</span></button>",
+    "行</span></button>",
+    "行</span></button>"
+  ],
+  "문서 · ": [
+    "Documents · ",
+    "문서 · ",
+    "文档 · ",
+    "文書 · "
+  ],
+  "<div class=\"note\">폴더를 선택하면 모든 하위 폴더의 문서 변경을 재귀적으로 모읍니다. 우측 ‘하위 전체 승인’ 한 번으로 선택 범위를 처리합니다.</div><nav class=\"review-tree\" aria-label=\"문서 변경 폴더 트리\">": [
+    "<div class=\"note\">Selecting a folder includes document changes in all descendants. Use Approve subtree to review that selection.</div><nav class=\"review-tree\" aria-label=\"Document changes Folder Tree\">",
+    "<div class=\"note\">폴더를 선택하면 모든 하위 폴더의 문서 변경을 재귀적으로 모읍니다. 우측 ‘하위 전체 승인’ 한 번으로 선택 범위를 처리합니다.</div><nav class=\"review-tree\" aria-label=\"문서 변경 폴더 트리\">",
+    "<div class=\"note\">选择文件夹会包含所有下级文档变更。使用“批准整个子树”处理所选范围。</div><nav class=\"review-tree\" aria-label=\"文档变更 文件夹 树\">",
+    "<div class=\"note\">フォルダーを選ぶと配下の文書変更を集めます。「配下を一括承認」で選択範囲を処理します。</div><nav class=\"review-tree\" aria-label=\"文書変更 フォルダー ツリー\">"
+  ],
+  " 요약</h2>": [
+    " Summary</h2>",
+    " 요약</h2>",
+    " 摘要</h2>",
+    " 概要</h2>"
+  ],
+  "<div class=\"small\">승인 실행 기준 ": [
+    "<div class=\"small\">Approved execution basis ",
+    "<div class=\"small\">승인 실행 기준 ",
+    "<div class=\"small\">已批准的执行依据 ",
+    "<div class=\"small\">承認された実行基準 "
+  ],
+  "지적 있음 · ": [
+    "Has findings · ",
+    "지적 있음 · ",
+    "存在问题 · ",
+    "指摘あり · "
+  ],
+  "<span class=\"small\">문서 변경 없음</span>": [
+    "<span class=\"small\">No document changes</span>",
+    "<span class=\"small\">문서 변경 없음</span>",
+    "<span class=\"small\">文档无变更</span>",
+    "<span class=\"small\">文書変更なし</span>"
+  ],
+  "<div class=\"note\">필터 표시 ": [
+    "<div class=\"note\">Filtered display ",
+    "<div class=\"note\">필터 표시 ",
+    "<div class=\"note\">筛选显示 ",
+    "<div class=\"note\">絞り込み表示 "
+  ],
+  "건 / 전체 지적 ": [
+    " items / All findings ",
+    "건 / 전체 지적 ",
+    "项 / 全部问题 ",
+    "件 / すべての指摘 "
+  ],
+  "<div class=\"small\">현재 판정: 원 발생 ": [
+    "<div class=\"small\">Current diagnosis: Original occurrences ",
+    "<div class=\"small\">현재 판정: 원 발생 ",
+    "<div class=\"small\">当前判定: 原始次数 ",
+    "<div class=\"small\">現在の判定: 元の発生数 "
+  ],
+  "건 · 고유 지적 ": [
+    " items · Unique findings ",
+    "건 · 고유 지적 ",
+    "项 · 独立问题 ",
+    "件 · 固有の指摘 "
+  ],
+  "건 · 작업 묶음 ": [
+    " items · Work groups ",
+    "건 · 작업 묶음 ",
+    "项 · 工作组 ",
+    "件 · 作業グループ "
+  ],
+  "개</div>": [
+    " items</div>",
+    "개</div>",
+    "个</div>",
+    "件</div>"
+  ],
+  "개 지적 · ": [
+    " items Findings · ",
+    "개 지적 · ",
+    "个 问题 · ",
+    "件 指摘 · "
+  ],
+  "건 발생</summary><div class=\"group-findings\">펼치면 원 지적을 조회합니다.</div></details>": [
+    " items Occurrences</summary><div class=\"group-findings\">Expand to load original findings.</div></details>",
+    "건 발생</summary><div class=\"group-findings\">펼치면 원 지적을 조회합니다.</div></details>",
+    "项 次发生</summary><div class=\"group-findings\">展开以加载原始问题。</div></details>",
+    "件 発生</summary><div class=\"group-findings\">開くと元の指摘を読み込みます。</div></details>"
+  ],
+  "\">계획 ": [
+    "\">Plan ",
+    "\">계획 ",
+    "\">计划 ",
+    "\">計画 "
+  ],
+  "<span class=\"chip cd\">틀림</span>": [
+    "<span class=\"chip cd\">Incorrect</span>",
+    "<span class=\"chip cd\">틀림</span>",
+    "<span class=\"chip cd\">错误</span>",
+    "<span class=\"chip cd\">誤り</span>"
+  ],
+  "<span class=\"chip cw\">체크 대기</span>": [
+    "<span class=\"chip cw\">Awaiting review</span>",
+    "<span class=\"chip cw\">체크 대기</span>",
+    "<span class=\"chip cw\">待审核</span>",
+    "<span class=\"chip cw\">確認待ち</span>"
+  ],
+  "<br/>시그니처 ": [
+    "<br/>Signature ",
+    "<br/>시그니처 ",
+    "<br/>签名 ",
+    "<br/>シグネチャ "
+  ],
+  "<br/>상태 ": [
+    "<br/>State ",
+    "<br/>상태 ",
+    "<br/>状态 ",
+    "<br/>状態 "
+  ],
+  "\">맞음</button><button class=\"ng\" data-u=\"": [
+    "\">Correct</button><button class=\"ng\" data-u=\"",
+    "\">맞음</button><button class=\"ng\" data-u=\"",
+    "\">正确</button><button class=\"ng\" data-u=\"",
+    "\">正しい</button><button class=\"ng\" data-u=\""
+  ],
+  "\">틀림</button><input class=\"memo\" data-u=\"": [
+    "\">Incorrect</button><input class=\"memo\" data-u=\"",
+    "\">틀림</button><input class=\"memo\" data-u=\"",
+    "\">错误</button><input class=\"memo\" data-u=\"",
+    "\">誤り</button><input class=\"memo\" data-u=\""
+  ],
+  "\" placeholder=\"틀림 이유(한 줄)\" value=\"": [
+    "\" placeholder=\"Reason (one line)\" value=\"",
+    "\" placeholder=\"틀림 이유(한 줄)\" value=\"",
+    "\" placeholder=\"原因（一行）\" value=\"",
+    "\" placeholder=\"理由（1行）\" value=\""
+  ],
+  "<div class=\"note\">체크 단추는 실시간 지도(감시 서버 주소)에서 나온다</div>": [
+    "<div class=\"note\">Review controls are available on the live map.</div>",
+    "<div class=\"note\">체크 단추는 실시간 지도(감시 서버 주소)에서 나온다</div>",
+    "<div class=\"note\">审核按钮在实时地图中提供。</div>",
+    "<div class=\"note\">確認ボタンはライブマップで使用できます。</div>"
+  ],
+  "<div class=\"note\">틀림 이유: ": [
+    "<div class=\"note\">Reason for rejection: ",
+    "<div class=\"note\">틀림 이유: ",
+    "<div class=\"note\">错误原因: ",
+    "<div class=\"note\">誤りの理由: "
+  ],
+  " · 계획 ": [
+    " · Plan ",
+    " · 계획 ",
+    " · 计划 ",
+    " · 計画 "
+  ],
+  "). 서버가 같은 포트로 다시 뜨면 저절로 다시 붙는다. 안 붙으면 .spec-conformance/Reports/map.html을 다시 연다": [
+    "). Reconnects automatically when the server returns on the same port. Otherwise reopen .spec-conformance/Reports/map.html.",
+    "). 서버가 같은 포트로 다시 뜨면 저절로 다시 붙는다. 안 붙으면 .spec-conformance/Reports/map.html을 다시 연다",
+    "). 服务器恢复到同一端口时会自动重连，否则请重新打开 .spec-conformance/Reports/map.html。",
+    "). サーバーが同じポートで再起動すると自動再接続します。接続しない場合は .spec-conformance/Reports/map.html を開き直してください。"
+  ],
+  "체크 응답 오류 (HTTP ": [
+    "Review response error (HTTP ",
+    "체크 응답 오류 (HTTP ",
+    "审核响应错误 (HTTP ",
+    "確認の応答エラー (HTTP "
+  ],
+  "묶음 전달 중 · ": [
+    "Submitting groups · ",
+    "묶음 전달 중 · ",
+    "正在提交分组 · ",
+    "グループを送信中 · "
+  ],
+  "건 (": [
+    " items (",
+    "건 (",
+    "项 (",
+    "件 ("
+  ],
+  "묶음)": [
+    "Groups)",
+    "묶음)",
+    "组)",
+    "グループ)"
+  ],
+  "개 문서": [
+    " items Documents",
+    "개 문서",
+    "个 文档",
+    "件 文書"
+  ],
+  "완료 · ": [
+    "Complete · ",
+    "완료 · ",
+    "完成 · ",
+    "完了 · "
+  ],
+  "건 체크": [
+    " items Review",
+    "건 체크",
+    "项 审核",
+    "件 確認"
+  ],
+  "남은 대기 ": [
+    "Still pending ",
+    "남은 대기 ",
+    "剩余待处理 ",
+    "残りの待機 "
+  ],
+  " · 문서 변경으로 사라진 단위 ": [
+    " · Units removed by document changes ",
+    " · 문서 변경으로 사라진 단위 ",
+    " · 因文档变更而移除的单元 ",
+    " · 文書変更で消えた単位 "
+  ],
+  "\n작업 ID: ": [
+    "\nJob ID: ",
+    "\n작업 ID: ",
+    "\n任务 ID: ",
+    "\n作業 ID: "
+  ],
+  "문서 ": [
+    "Documents ",
+    "문서 ",
+    "文档 ",
+    "文書 "
+  ],
+  "\">문서 ": [
+    "\">Documents ",
+    "\">문서 ",
+    "\">文档 ",
+    "\">文書 "
+  ],
+  "<label class=\"cb\" title=\"틀린 줄이면 체크\"><input type=\"checkbox\" class=\"flag\" data-u=\"": [
+    "<label class=\"cb\" title=\"Select if incorrect\"><input type=\"checkbox\" class=\"flag\" data-u=\"",
+    "<label class=\"cb\" title=\"틀린 줄이면 체크\"><input type=\"checkbox\" class=\"flag\" data-u=\"",
+    "<label class=\"cb\" title=\"如果有误请勾选\"><input type=\"checkbox\" class=\"flag\" data-u=\"",
+    "<label class=\"cb\" title=\"誤りなら選択\"><input type=\"checkbox\" class=\"flag\" data-u=\""
+  ],
+  ">이전</button>": [
+    ">Previous</button>",
+    ">이전</button>",
+    ">上一项</button>",
+    ">前</button>"
+  ],
+  "줄<button class=\"page-next\"": [
+    " lines<button class=\"page-next\"",
+    "줄<button class=\"page-next\"",
+    "行<button class=\"page-next\"",
+    "行<button class=\"page-next\""
+  ],
+  ">다음</button></div>": [
+    ">Next</button></div>",
+    ">다음</button></div>",
+    ">下一项</button></div>",
+    ">次</button></div>"
+  ],
+  "<div class=\"checks\"><input class=\"memo bmemo\" placeholder=\"체크한 줄이 틀린 이유\"><button class=\"ng bwrong\">틀림 제출 — 체크한 줄만</button><button class=\"ok brest\">나머지 맞음</button></div>": [
+    "<div class=\"checks\"><input class=\"memo bmemo\" placeholder=\"Reason selected lines are incorrect\"><button class=\"ng bwrong\">Reject selected lines</button><button class=\"ok brest\">Approve remaining</button></div>",
+    "<div class=\"checks\"><input class=\"memo bmemo\" placeholder=\"체크한 줄이 틀린 이유\"><button class=\"ng bwrong\">틀림 제출 — 체크한 줄만</button><button class=\"ok brest\">나머지 맞음</button></div>",
+    "<div class=\"checks\"><input class=\"memo bmemo\" placeholder=\"所选行错误的原因\"><button class=\"ng bwrong\">拒绝所选行</button><button class=\"ok brest\">批准其余行</button></div>",
+    "<div class=\"checks\"><input class=\"memo bmemo\" placeholder=\"選択した行が誤りである理由\"><button class=\"ng bwrong\">選択した行を誤りとして送信</button><button class=\"ok brest\">残りを承認</button></div>"
+  ],
+  "</span><div class=\"msg\">구현 없는 인터페이스 ": [
+    "</span><div class=\"msg\">Interfaces without implementation ",
+    "</span><div class=\"msg\">구현 없는 인터페이스 ",
+    "</span><div class=\"msg\">无实现的接口 ",
+    "</span><div class=\"msg\">実装のないインターフェース "
+  ],
+  " (인터페이스 ": [
+    " (Interface ",
+    " (인터페이스 ",
+    " (接口 ",
+    " (インターフェース "
+  ],
+  "로)</div></div>": [
+    " via)</div></div>",
+    "로)</div></div>",
+    "通过)</div></div>",
+    "経由)</div></div>"
+  ],
+  "<div class=\"note\">코드 대조 결과가 아직 없습니다. 문서 변경 검토 탭에서 검토 목록을 확인할 수 있습니다.</div>": [
+    "<div class=\"note\">No code comparison yet. Open Document review to view pending changes.</div>",
+    "<div class=\"note\">코드 대조 결과가 아직 없습니다. 문서 변경 검토 탭에서 검토 목록을 확인할 수 있습니다.</div>",
+    "<div class=\"note\">尚无代码对照结果。请打开文档审核选项卡查看待审变更。</div>",
+    "<div class=\"note\">コード照合結果はまだありません。文書確認タブで変更を確認できます。</div>"
+  ],
+  "<nav class=\"finding-rules\" aria-label=\"규칙별 지적 바로 보기\"><b>규칙별 바로 보기</b> ": [
+    "<nav class=\"finding-rules\" aria-label=\"Browse findings by rule\"><b>Browse by rule</b> ",
+    "<nav class=\"finding-rules\" aria-label=\"규칙별 지적 바로 보기\"><b>규칙별 바로 보기</b> ",
+    "<nav class=\"finding-rules\" aria-label=\"按规则查看问题\"><b>按规则查看</b> ",
+    "<nav class=\"finding-rules\" aria-label=\"規則別に指摘を表示\"><b>規則別に表示</b> "
+  ],
+  "\">전체</button> ": [
+    "\">All</button> ",
+    "\">전체</button> ",
+    "\">全部</button> ",
+    "\">すべて</button> "
+  ],
+  "문서 분리 (DOC22)": [
+    "Document split (DOC22)",
+    "문서 분리 (DOC22)",
+    "文档拆分 (DOC22)",
+    "文書分割 (DOC22)"
+  ],
+  "건</span> <button data-finding-page=\"prev\"": [
+    " items</span> <button data-finding-page=\"prev\"",
+    "건</span> <button data-finding-page=\"prev\"",
+    "项</span> <button data-finding-page=\"prev\"",
+    "件</span> <button data-finding-page=\"prev\""
+  ],
+  ">이전</button> <button data-finding-page=\"next\"": [
+    ">Previous</button> <button data-finding-page=\"next\"",
+    ">이전</button> <button data-finding-page=\"next\"",
+    ">上一项</button> <button data-finding-page=\"next\"",
+    ">前</button> <button data-finding-page=\"next\""
+  ],
+  "<h2>우선순위·페이즈</h2>": [
+    "<h2>Priority / phases</h2>",
+    "<h2>우선순위·페이즈</h2>",
+    "<h2>优先级／阶段</h2>",
+    "<h2>優先度・フェーズ</h2>"
+  ],
+  "<div class=\"note\">PH별 대상과 지적은 독립적으로 표시합니다. 재발은 원래 PH에 남고, 배정이 겹치면 미배정으로 유지합니다. 전체 완료·필수 오류 판정은 별도 전체 집계를 사용합니다.</div>": [
+    "<div class=\"note\">Each phase shows its own targets and findings. Recurrences stay in their original phase; conflicting assignments remain unassigned. Completion uses the full aggregate.</div>",
+    "<div class=\"note\">PH별 대상과 지적은 독립적으로 표시합니다. 재발은 원래 PH에 남고, 배정이 겹치면 미배정으로 유지합니다. 전체 완료·필수 오류 판정은 별도 전체 집계를 사용합니다.</div>",
+    "<div class=\"note\">各阶段分别显示目标和问题。复发问题保留在原阶段，冲突分配保持未分配。完成判定采用全量汇总。</div>",
+    "<div class=\"note\">各フェーズの対象と指摘を個別に表示します。再発は元のフェーズに残り、割当の競合は未割当になります。完了判定には全体集計を使います。</div>"
+  ],
+  " · 남은 지적 ": [
+    " · Remaining findings ",
+    " · 남은 지적 ",
+    " · 剩余问题 ",
+    " · 残りの指摘 "
+  ],
+  "<div class=\"note\">선택한 PH가 없습니다.</div>": [
+    "<div class=\"note\">No phase selected.</div>",
+    "<div class=\"note\">선택한 PH가 없습니다.</div>",
+    "<div class=\"note\">未选择阶段。</div>",
+    "<div class=\"note\">フェーズが選択されていません。</div>"
+  ],
+  "<div class=\"sel\"><b>지금</b> · ": [
+    "<div class=\"sel\"><b>Current</b> · ",
+    "<div class=\"sel\"><b>지금</b> · ",
+    "<div class=\"sel\"><b>当前</b> · ",
+    "<div class=\"sel\"><b>現在</b> · "
+  ],
+  "<div class=\"sel\"><b>다음</b> · ": [
+    "<div class=\"sel\"><b>Next</b> · ",
+    "<div class=\"sel\"><b>다음</b> · ",
+    "<div class=\"sel\"><b>下一项</b> · ",
+    "<div class=\"sel\"><b>次</b> · "
+  ],
+  "건</b><button class=\"ok bulkok\">": [
+    " items</b><button class=\"ok bulkok\">",
+    "건</b><button class=\"ok bulkok\">",
+    "项</b><button class=\"ok bulkok\">",
+    "件</b><button class=\"ok bulkok\">"
+  ],
+  "</button><button class=\"ng bulkng\">모두 틀림</button><input class=\"memo bulkmemo\" placeholder=\"틀림 이유(한 줄)\"></div>": [
+    "</button><button class=\"ng bulkng\">Reject all</button><input class=\"memo bulkmemo\" placeholder=\"Reason (one line)\"></div>",
+    "</button><button class=\"ng bulkng\">모두 틀림</button><input class=\"memo bulkmemo\" placeholder=\"틀림 이유(한 줄)\"></div>",
+    "</button><button class=\"ng bulkng\">全部拒绝</button><input class=\"memo bulkmemo\" placeholder=\"原因（一行）\"></div>",
+    "</button><button class=\"ng bulkng\">すべて誤り</button><input class=\"memo bulkmemo\" placeholder=\"理由（1行）\"></div>"
+  ],
+  "<h2>문서 변경 체크 — 대기 ": [
+    "<h2>Document review — Pending ",
+    "<h2>문서 변경 체크 — 대기 ",
+    "<h2>文档变更审核 — 待处理 ",
+    "<h2>文書変更の確認 — 待機 "
+  ],
+  "<div class=\"note\">파일로 연 지도라 체크 단추가 없다 — 감시 서버 주소(engine.py ask status)로 연다</div>": [
+    "<div class=\"note\">Review controls require the live server. Get its address with engine.py ask status.</div>",
+    "<div class=\"note\">파일로 연 지도라 체크 단추가 없다 — 감시 서버 주소(engine.py ask status)로 연다</div>",
+    "<div class=\"note\">审核操作需要实时服务器。通过 engine.py ask status 获取地址。</div>",
+    "<div class=\"note\">確認操作にはライブサーバーが必要です。engine.py ask status でアドレスを確認してください。</div>"
+  ],
+  "</b> · 변경 ": [
+    "</b> · Changes ",
+    "</b> · 변경 ",
+    "</b> · 变更 ",
+    "</b> · 変更 "
+  ],
+  "줄 · 체크 묶음 ": [
+    " lines · Review groups ",
+    "줄 · 체크 묶음 ",
+    "行 · 审核组 ",
+    "行 · 確認グループ "
+  ],
+  "개 · <a data-go=\"": [
+    " items · <a data-go=\"",
+    "개 · <a data-go=\"",
+    "个 · <a data-go=\"",
+    "件 · <a data-go=\""
+  ],
+  "\" style=\"cursor:pointer;color:#0969da\">코드 구조에서 보기 →</a> · <a data-go=\"c:\" style=\"cursor:pointer;color:#0969da\">고르기 풀기</a></div>": [
+    "\" style=\"cursor:pointer;color:#0969da\">View code structure →</a> · <a data-go=\"c:\" style=\"cursor:pointer;color:#0969da\">Clear selection</a></div>",
+    "\" style=\"cursor:pointer;color:#0969da\">코드 구조에서 보기 →</a> · <a data-go=\"c:\" style=\"cursor:pointer;color:#0969da\">고르기 풀기</a></div>",
+    "\" style=\"cursor:pointer;color:#0969da\">查看代码结构 →</a> · <a data-go=\"c:\" style=\"cursor:pointer;color:#0969da\">清除选择</a></div>",
+    "\" style=\"cursor:pointer;color:#0969da\">コード構造で表示 →</a> · <a data-go=\"c:\" style=\"cursor:pointer;color:#0969da\">選択を解除</a></div>"
+  ],
+  "<div class=\"note\">체크 묶음마다 틀린 줄의 왼쪽 칸을 체크하고 제출한다(체크한 줄 틀림, 나머지 맞음). 왼쪽 맵에서 코드 항목을 누르면 연결된 문서 변경만 보인다</div>": [
+    "<div class=\"note\">Select incorrect lines in each group before submitting. Selecting code on the left filters related document changes.</div>",
+    "<div class=\"note\">체크 묶음마다 틀린 줄의 왼쪽 칸을 체크하고 제출한다(체크한 줄 틀림, 나머지 맞음). 왼쪽 맵에서 코드 항목을 누르면 연결된 문서 변경만 보인다</div>",
+    "<div class=\"note\">勾选每组中错误的行后提交。选择左侧代码可筛选相关文档变更。</div>",
+    "<div class=\"note\">各グループの誤った行を選択して送信します。左のコードを選ぶと関連する文書変更を絞り込めます。</div>"
+  ],
+  "문서 · 변경 ": [
+    "Documents · Changes ",
+    "문서 · 변경 ",
+    "文档 · 变更 ",
+    "文書 · 変更 "
+  ],
+  " · 모든 하위 폴더 포함": [
+    " · Including all descendant folders",
+    " · 모든 하위 폴더 포함",
+    " · 包含所有下级文件夹",
+    " · すべての下位フォルダーを含む"
+  ],
+  "<section id=\"current-documents\" class=\"document-check\"><h2>문서 변경 체크 — 대기 ": [
+    "<section id=\"current-documents\" class=\"document-check\"><h2>Document review — Pending ",
+    "<section id=\"current-documents\" class=\"document-check\"><h2>문서 변경 체크 — 대기 ",
+    "<section id=\"current-documents\" class=\"document-check\"><h2>文档变更审核 — 待处理 ",
+    "<section id=\"current-documents\" class=\"document-check\"><h2>文書変更の確認 — 待機 "
+  ],
+  " 하위 전체": [
+    " All descendants",
+    " 하위 전체",
+    " 全部下级",
+    " 配下すべて"
+  ],
+  "<div class=\"note\">하위 전체 승인은 이 폴더 아래의 모든 하위 폴더·문서를 한 번에 처리합니다. 기존 틀림 판정은 제외하며, 개별 수정은 아래 변경 내역에서 할 수 있습니다.</div>": [
+    "<div class=\"note\">Approve subtree processes all descendant documents, excluding existing rejected items. Review individual changes below.</div>",
+    "<div class=\"note\">하위 전체 승인은 이 폴더 아래의 모든 하위 폴더·문서를 한 번에 처리합니다. 기존 틀림 판정은 제외하며, 개별 수정은 아래 변경 내역에서 할 수 있습니다.</div>",
+    "<div class=\"note\">批准整个子树会处理所有下级文档，不包括已经拒绝的项目。可在下方单独审核。</div>",
+    "<div class=\"note\">配下の一括承認は、既存の誤り判定を除く下位文書を処理します。個別の修正は下の変更内容で確認できます。</div>"
+  ],
+  "<div class=\"note\">체크 묶음마다 틀린 줄의 왼쪽 칸을 체크하고 제출한다(체크한 줄 틀림, 나머지 맞음). 왼쪽에서 선택한 범위의 변경만 보인다.</div>": [
+    "<div class=\"note\">Select incorrect lines in each group before submitting. Only changes in the selected scope are shown.</div>",
+    "<div class=\"note\">체크 묶음마다 틀린 줄의 왼쪽 칸을 체크하고 제출한다(체크한 줄 틀림, 나머지 맞음). 왼쪽에서 선택한 범위의 변경만 보인다.</div>",
+    "<div class=\"note\">勾选每组中错误的行后提交。仅显示所选范围内的变更。</div>",
+    "<div class=\"note\">各グループの誤った行を選択して送信します。左で選んだ範囲の変更を表示します。</div>"
+  ],
+  "<section class=\"review-diffs\"><h3>문서 변경 내역 — ": [
+    "<section class=\"review-diffs\"><h3>Document changes — ",
+    "<section class=\"review-diffs\"><h3>문서 변경 내역 — ",
+    "<section class=\"review-diffs\"><h3>文档变更记录 — ",
+    "<section class=\"review-diffs\"><h3>文書の変更内容 — "
+  ],
+  "건 · ": [
+    " items · ",
+    "건 · ",
+    "项 · ",
+    "件 · "
+  ],
+  "묶음</h3><div class=\"note\">− 변경 전 문서 · + 변경 후 문서. 아래 문서 내용에 대해 맞음/틀림을 체크합니다.</div>": [
+    "Groups</h3><div class=\"note\">− Previous document · + Updated document. Mark the content below correct or incorrect.</div>",
+    "묶음</h3><div class=\"note\">− 변경 전 문서 · + 변경 후 문서. 아래 문서 내용에 대해 맞음/틀림을 체크합니다.</div>",
+    "组</h3><div class=\"note\">− 变更前文档 · + 变更后文档。请审核下方内容是否正确。</div>",
+    "グループ</h3><div class=\"note\">− 変更前の文書 · + 変更後の文書。以下の内容を正しい／誤りで確認します。</div>"
+  ],
+  "<div class=\"note\">현재 대상의 문서 변경 체크 대기가 없습니다.</div>": [
+    "<div class=\"note\">No document changes await review in this selection.</div>",
+    "<div class=\"note\">현재 대상의 문서 변경 체크 대기가 없습니다.</div>",
+    "<div class=\"note\">所选范围没有待审核的文档变更。</div>",
+    "<div class=\"note\">選択範囲に確認待ちの文書変更はありません。</div>"
+  ],
+  "<details class=\"finding-list\" open><summary>지적 전체 목록 · ": [
+    "<details class=\"finding-list\" open><summary>All findings · ",
+    "<details class=\"finding-list\" open><summary>지적 전체 목록 · ",
+    "<details class=\"finding-list\" open><summary>全部问题列表 · ",
+    "<details class=\"finding-list\" open><summary>指摘の全一覧 · "
+  ],
+  "건</summary>": [
+    " items</summary>",
+    "건</summary>",
+    "项</summary>",
+    "件</summary>"
+  ],
+  "<h2>인터페이스 대응 문제 ": [
+    "<h2>Interface conformance issues ",
+    "<h2>인터페이스 대응 문제 ",
+    "<h2>接口对应问题 ",
+    "<h2>インターフェース対応の問題 "
+  ],
+  "<div class=\"note\">참고: ": [
+    "<div class=\"note\">Note: ",
+    "<div class=\"note\">참고: ",
+    "<div class=\"note\">参考: ",
+    "<div class=\"note\">参考: "
+  ],
+  " <span class=\"chip c3\">새</span>": [
+    " <span class=\"chip c3\">New</span>",
+    " <span class=\"chip c3\">새</span>",
+    " <span class=\"chip c3\">新</span>",
+    " <span class=\"chip c3\">新規</span>"
+  ],
+  "<div class=\"note\">소스 폴더: ": [
+    "<div class=\"note\">Source folder: ",
+    "<div class=\"note\">소스 폴더: ",
+    "<div class=\"note\">源文件夹: ",
+    "<div class=\"note\">ソースフォルダー: "
+  ],
+  "<br/>분리 위치: ": [
+    "<br/>Split location: ",
+    "<br/>분리 위치: ",
+    "<br/>拆分位置: ",
+    "<br/>分割先: "
+  ],
+  " (틀림 ": [
+    " (Incorrect ",
+    " (틀림 ",
+    " (错误 ",
+    " (誤り "
+  ],
+  "건 제외)": [
+    " items excluded)",
+    "건 제외)",
+    "项除外)",
+    "件を除外)"
+  ],
+  "<p class=\"note\">페이즈 표가 없거나 문서 형식 오류로 계산하지 못했다</p>": [
+    "<p class=\"note\">No phase table, or invalid document format</p>",
+    "<p class=\"note\">페이즈 표가 없거나 문서 형식 오류로 계산하지 못했다</p>",
+    "<p class=\"note\">缺少阶段表或文档格式无效</p>",
+    "<p class=\"note\">フェーズ表がないか、文書形式のエラーで計算できません</p>"
+  ],
+  "<div class=\"sadd\"><b>새 작업 넣기</b> <span class=\"pstate\">지금 페이즈 바로 다음 순위로 들어가고 뒤는 한 칸씩 밀린다</span><div class=\"checks\"><input id=\"sName\" placeholder=\"페이즈 이름(예: PH10)\"><input id=\"sTargets\" placeholder=\"대상: 단계 E12 또는 S1 Assets/Scripts/Character (쉼표로 여럿)\"><input id=\"sReason\" placeholder=\"이유\"><button class=\"ok\" id=\"sAdd\">넣기</button></div></div>": [
+    "<div class=\"sadd\"><b>Add work</b> <span class=\"pstate\">Insert after the current phase and shift later phases.</span><div class=\"checks\"><input id=\"sName\" placeholder=\"Phase name (e.g. PH10)\"><input id=\"sTargets\" placeholder=\"Targets: step E12 or S1 Assets/Scripts/Character (comma separated)\"><input id=\"sReason\" placeholder=\"Reason\"><button class=\"ok\" id=\"sAdd\">Insert</button></div></div>",
+    "<div class=\"sadd\"><b>새 작업 넣기</b> <span class=\"pstate\">지금 페이즈 바로 다음 순위로 들어가고 뒤는 한 칸씩 밀린다</span><div class=\"checks\"><input id=\"sName\" placeholder=\"페이즈 이름(예: PH10)\"><input id=\"sTargets\" placeholder=\"대상: 단계 E12 또는 S1 Assets/Scripts/Character (쉼표로 여럿)\"><input id=\"sReason\" placeholder=\"이유\"><button class=\"ok\" id=\"sAdd\">넣기</button></div></div>",
+    "<div class=\"sadd\"><b>添加工作</b> <span class=\"pstate\">插入到当前阶段之后，后续阶段顺延。</span><div class=\"checks\"><input id=\"sName\" placeholder=\"阶段名称（例如 PH10）\"><input id=\"sTargets\" placeholder=\"目标：步骤 E12 或 S1 Assets/Scripts/Character（逗号分隔）\"><input id=\"sReason\" placeholder=\"原因\"><button class=\"ok\" id=\"sAdd\">插入</button></div></div>",
+    "<div class=\"sadd\"><b>作業を追加</b> <span class=\"pstate\">現在のフェーズの直後に挿入し、後続を繰り下げます。</span><div class=\"checks\"><input id=\"sName\" placeholder=\"フェーズ名（例：PH10）\"><input id=\"sTargets\" placeholder=\"対象：段階 E12 または S1 Assets/Scripts/Character（カンマ区切り）\"><input id=\"sReason\" placeholder=\"理由\"><button class=\"ok\" id=\"sAdd\">挿入</button></div></div>"
+  ],
+  "<p class=\"note\">파일로 연 지도라 조작 단추가 없다 — 감시 서버 주소로 연다</p>": [
+    "<p class=\"note\">Open the live server to enable controls.</p>",
+    "<p class=\"note\">파일로 연 지도라 조작 단추가 없다 — 감시 서버 주소로 연다</p>",
+    "<p class=\"note\">打开实时服务器以启用操作。</p>",
+    "<p class=\"note\">操作するにはライブサーバーを開いてください。</p>"
+  ],
+  " · 남은 지적 <b>": [
+    " · Remaining findings <b>",
+    " · 남은 지적 <b>",
+    " · 剩余问题 <b>",
+    " · 残りの指摘 <b>"
+  ],
+  ">▼</button><button data-op=\"defer\">보류</button><button data-op=\"drop\" class=\"ng\">지우기</button></span>": [
+    ">▼</button><button data-op=\"defer\">Defer</button><button data-op=\"drop\" class=\"ng\">Remove</button></span>",
+    ">▼</button><button data-op=\"defer\">보류</button><button data-op=\"drop\" class=\"ng\">지우기</button></span>",
+    ">▼</button><button data-op=\"defer\">暂缓</button><button data-op=\"drop\" class=\"ng\">移除</button></span>",
+    ">▼</button><button data-op=\"defer\">保留</button><button data-op=\"drop\" class=\"ng\">削除</button></span>"
+  ],
+  "<div class=\"note\">앞의 ": [
+    "<div class=\"note\">First ",
+    "<div class=\"note\">앞의 ",
+    "<div class=\"note\">前 ",
+    "<div class=\"note\">先頭の "
+  ],
+  "건만</div>": [
+    " items only</div>",
+    "건만</div>",
+    "项</div>",
+    "件のみ</div>"
+  ],
+  "<div class=\"note\">미배정 ": [
+    "<div class=\"note\">Unassigned ",
+    "<div class=\"note\">미배정 ",
+    "<div class=\"note\">未分配 ",
+    "<div class=\"note\">未割当 "
+  ],
+  "건 · 배정 충돌 ": [
+    " items · Assignment conflicts ",
+    "건 · 배정 충돌 ",
+    "项 · 分配冲突 ",
+    "件 · 割当の競合 "
+  ],
+  "지금 ": [
+    "Current ",
+    "지금 ",
+    "当前 ",
+    "現在 "
+  ],
+  " · 다음 ": [
+    " · Next ",
+    " · 다음 ",
+    " · 下一项 ",
+    " · 次 "
+  ],
+  "페이즈 조작 실패: ": [
+    "Phase update failed: ",
+    "페이즈 조작 실패: ",
+    "阶段操作失败: ",
+    "フェーズの操作に失敗: "
+  ],
+  " 페이즈를 지울까요?": [
+    " Delete this phase?",
+    " 페이즈를 지울까요?",
+    " 删除此阶段？",
+    " このフェーズを削除しますか？"
+  ],
+  "<span><i style=\"background:var(--s4)\"></i>문서·파싱(D·P)</span><span><i style=\"background:var(--s3)\"></i>위치·참조 위반(L1·L2·L6)</span><span><i style=\"background:var(--s2)\"></i>따로 놂·다른 계층 전용·복사본(L3·L4·L5)</span><span><i style=\"background:var(--s1)\"></i>미구현(W8)·검증 미완료(W12)·그 밖의 W</span><span><i style=\"background:var(--s0)\"></i>지적 없음</span>": [
+    "<span><i style=\"background:var(--s4)\"></i>Documents / parsing(D·P)</span><span><i style=\"background:var(--s3)\"></i>Location / reference violations(L1·L2·L6)</span><span><i style=\"background:var(--s2)\"></i>Isolated / other-layer-only / duplicate(L3·L4·L5)</span><span><i style=\"background:var(--s1)\"></i>Unimplemented(W8)·Unverified(W12)·Other warnings</span><span><i style=\"background:var(--s0)\"></i>No findings</span>",
+    "<span><i style=\"background:var(--s4)\"></i>문서·파싱(D·P)</span><span><i style=\"background:var(--s3)\"></i>위치·참조 위반(L1·L2·L6)</span><span><i style=\"background:var(--s2)\"></i>따로 놂·다른 계층 전용·복사본(L3·L4·L5)</span><span><i style=\"background:var(--s1)\"></i>미구현(W8)·검증 미완료(W12)·그 밖의 W</span><span><i style=\"background:var(--s0)\"></i>지적 없음</span>",
+    "<span><i style=\"background:var(--s4)\"></i>文档／解析(D·P)</span><span><i style=\"background:var(--s3)\"></i>位置／引用违规(L1·L2·L6)</span><span><i style=\"background:var(--s2)\"></i>孤立／仅其他层使用／重复(L3·L4·L5)</span><span><i style=\"background:var(--s1)\"></i>未实现(W8)·未验证(W12)·其他警告</span><span><i style=\"background:var(--s0)\"></i>无问题</span>",
+    "<span><i style=\"background:var(--s4)\"></i>文書・解析(D·P)</span><span><i style=\"background:var(--s3)\"></i>位置・参照違反(L1·L2·L6)</span><span><i style=\"background:var(--s2)\"></i>孤立・他層専用・複製(L3·L4·L5)</span><span><i style=\"background:var(--s1)\"></i>未実装(W8)·未検証(W12)·その他の警告</span><span><i style=\"background:var(--s0)\"></i>指摘なし</span>"
+  ],
+  "<span><i style=\"background:#c62828\"></i>I1 인터페이스 우회</span>": [
+    "<span><i style=\"background:#c62828\"></i>I1 Interface bypass</span>",
+    "<span><i style=\"background:#c62828\"></i>I1 인터페이스 우회</span>",
+    "<span><i style=\"background:#c62828\"></i>I1 接口绕过</span>",
+    "<span><i style=\"background:#c62828\"></i>I1 インターフェース迂回</span>"
+  ],
+  "· 지금 ": [
+    "· Current ",
+    "· 지금 ",
+    "· 当前 ",
+    "· 現在 "
+  ],
+  "· 선택 ": [
+    "· Selected ",
+    "· 선택 ",
+    "· 选择 ",
+    "· 選択 "
+  ],
+  "<div class=\"note\">코드 대조 결과를 기다리는 중입니다. 문서 변경 검토 탭은 사용할 수 있습니다.</div>": [
+    "<div class=\"note\">Waiting for code comparison. Document review is available.</div>",
+    "<div class=\"note\">코드 대조 결과를 기다리는 중입니다. 문서 변경 검토 탭은 사용할 수 있습니다.</div>",
+    "<div class=\"note\">正在等待代码对照结果。文档审核可用。</div>",
+    "<div class=\"note\">コード照合を待っています。文書確認タブは使用できます。</div>"
+  ],
+  "<p class=\"note\">머메이드를 읽지 못해 그림을 그릴 수 없습니다(인터넷 연결). 오른쪽 목록은 그대로 보입니다.</p>": [
+    "<p class=\"note\">Could not load Mermaid. Check the network connection. The list on the right remains available.</p>",
+    "<p class=\"note\">머메이드를 읽지 못해 그림을 그릴 수 없습니다(인터넷 연결). 오른쪽 목록은 그대로 보입니다.</p>",
+    "<p class=\"note\">无法加载 Mermaid，请检查网络连接。右侧列表仍可用。</p>",
+    "<p class=\"note\">Mermaid を読み込めません。ネットワーク接続を確認してください。右側の一覧は使用できます。</p>"
+  ],
+  ". 문서 검토 목록은 별도로 조회합니다.": [
+    ". Document reviews are loaded separately.",
+    ". 문서 검토 목록은 별도로 조회합니다.",
+    ". 文档审核列表单独加载。",
+    ". 文書確認一覧は別途読み込みます。"
+  ],
+  "이전 판 ": [
+    "Previous revision ",
+    "이전 판 ",
+    "上一版本 ",
+    "前の版 "
+  ],
+  "지도 자료를 받지 못했습니다: ": [
+    "Could not load map data: ",
+    "지도 자료를 받지 못했습니다: ",
+    "无法加载地图数据: ",
+    "マップデータを読み込めませんでした: "
+  ]
+}

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77.0.3", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aicaah"
+version = "0.1"
+description = "AICAAH — AI Coding Agent Architecture Harness"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "AICAAH contributors"}]
+keywords = ["architecture", "static-analysis", "code-quality", "ai-agents"]
+classifiers = ["Development Status :: 4 - Beta", "Programming Language :: Python :: 3", "Topic :: Software Development :: Quality Assurance"]
+dependencies = [
+  "tree-sitter>=0.25,<0.26",
+  "tree-sitter-javascript>=0.25,<0.26",
+  "tree-sitter-typescript>=0.23,<0.24",
+  "tree-sitter-java>=0.23,<0.24",
+  "tree-sitter-go>=0.25,<0.26",
+]
+
+[project.scripts]
+aicaah = "aicaah:main"
+
+[tool.setuptools]
+packages = ["aicaah"]
+package-dir = {aicaah = "src/aicaah"}
+include-package-data = false
+
+[tool.setuptools.package-data]
+aicaah = ["parsing/*.py", "documents/*.py", "storage/*.py", "graph/*.py", "graph/RefGraph/*.cs", "judging/*.py", "output/*.py", "serving/*.py", "installation/*.py", "selftest/test_public.py", "locales/*.json", "pyproject.toml", "README.md", "LICENSE", "public/*.md", "public/.gitignore", "public/MANIFEST.in", "public/docs/*.md", "public/examples/*.json", "public/scripts/*.py", "public/.github/workflows/*.yml"]

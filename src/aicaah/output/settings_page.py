@@ -1,0 +1,38 @@
+"""메인 하네스에서 제공하는 구조·한도 설정 화면."""
+import json
+from output import localization
+
+
+def page(config, schema, fingerprint, locale):
+    """안전하게 직렬화한 설정과 선택 언어로 폼을 구성한다."""
+    payload = json.dumps({"config":config, "schema":schema, "fingerprint":fingerprint,
+                          "locale":locale, "messages":localization.catalog(locale)}, ensure_ascii=False).replace("</", "<\\/")
+    return PAGE.replace("__DATA__", payload).replace("__LANG__", locale).replace("__TITLE__", localization.message("app.settings", locale))
+
+
+PAGE = r'''<!doctype html><html lang="__LANG__"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>__TITLE__</title><style>
+body{font:15px/1.5 system-ui,sans-serif;color:#202833;background:#f5f7fa;margin:0;padding:28px}main{max-width:1180px;margin:auto}section{background:white;border:1px solid #d8dfe8;border-radius:8px;padding:20px;margin:20px 0}h1{margin:0}header{display:flex;justify-content:space-between;align-items:center}label{display:inline-flex;gap:6px;flex-direction:column;margin:6px}input,select,textarea,button{font:inherit;padding:7px;border:1px solid #b7c3d2;border-radius:4px}button{cursor:pointer;background:#edf3fa}button.primary{background:#1264be;color:white}input[type=number]{width:90px}.rule,.module{border-top:1px solid #dde4ee;padding:12px 0}textarea{width:95%;min-height:70px}.error{color:#b11b1b;white-space:pre-wrap}nav a{margin-left:16px}.note{color:#526174}#status{white-space:pre-wrap}button:disabled{opacity:.6}
+</style><main><header><h1>__TITLE__</h1><nav><select id="language" aria-label="Display language"><option value="en">English</option><option value="ko">한국어</option><option value="zh">中文</option><option value="ja">日本語</option></select><a id="map" href="/"></a></nav></header><p id="description"></p>
+<section><label><span id="sourcesLabel"></span><textarea id="sources"></textarea></label><label><span id="excludeLabel"></span><textarea id="exclude"></textarea></label><fieldset><legend id="languagesLabel"></legend><div id="languages"></div></fieldset></section>
+<section><h2 id="moduleTitle"></h2><div id="modules"></div><button id="addModule"></button></section>
+<section><h2 id="ruleTitle"></h2><p id="notice" class="note"></p><div id="rules"></div><button id="addRule"></button></section>
+<button id="save" class="primary"></button><p id="status" role="status"></p></main>
+<script>const data=__DATA__;const config=data.config;const t=(key)=>data.messages[key]||key;
+function field(label,type,value){const wrap=document.createElement('label');wrap.append(document.createTextNode(t(label)));const input=document.createElement(type==='select'?'select':'input');if(type!=='select')input.type=type;if(type==='checkbox')input.checked=value;else input.value=value??'';wrap.append(input);return [wrap,input];}
+function options(input,values,prefix,selected){input.replaceChildren();for(const value of values){const option=document.createElement('option');option.value=value;option.textContent=t(prefix+value);input.append(option);}input.value=selected;}
+function render(){document.getElementById('modules').replaceChildren();document.getElementById('rules').replaceChildren();
+config.structure.modules.forEach((module,index)=>{const row=document.createElement('div');row.className='module';for(const key of ['id','path']){const [wrap,input]=field('settings.'+key,'text',module[key]);input.oninput=()=>module[key]=input.value;row.append(wrap);}const remove=document.createElement('button');remove.textContent=t('action.remove');remove.onclick=()=>{config.structure.modules.splice(index,1);render();};row.append(remove);document.getElementById('modules').append(row);});
+config.standards.rules.forEach((rule,index)=>{const row=document.createElement('div');row.className='rule';
+for(const [key,type,label] of [['id','text','id'],['unit','select','unit'],['metric','select','metric'],['max','number','maximum'],['scope','text','scope'],['depth','select','depth'],['enabled','checkbox','enabled']]){const [wrap,input]=field('settings.'+label,type,rule[key]);if(key==='unit')options(input,Object.keys(data.schema.metrics),'unit.',rule.unit);if(key==='metric')options(input,data.schema.metrics[rule.unit],'metric.',rule.metric);if(key==='depth')options(input,data.schema.depths,'depth.',rule.depth);if(type==='number'){input.min='0';input.step='1';}input.onchange=()=>{rule[key]=type==='checkbox'?input.checked:type==='number'?(input.value===''?null:Number(input.value)):input.value;if(key==='unit'){rule.metric=data.schema.metrics[rule.unit][0];render();}};row.append(wrap);}
+const advanced=document.createElement('details'),summary=document.createElement('summary'),editor=document.createElement('textarea');summary.textContent=t('settings.overrides');editor.value=JSON.stringify({overrides:rule.overrides||[],exceptions:rule.exceptions||[]},null,2);editor.onchange=()=>{try{const value=JSON.parse(editor.value);rule.overrides=value.overrides;rule.exceptions=value.exceptions;editor.setCustomValidity('');}catch(error){editor.setCustomValidity(error.message);}};advanced.append(summary,editor);row.append(advanced);
+const remove=document.createElement('button');remove.textContent=t('action.remove');remove.onclick=()=>{config.standards.rules.splice(index,1);render();};row.append(remove);document.getElementById('rules').append(row);});}
+for(const [id,key] of Object.entries({map:'app.title',description:'settings.description',sourcesLabel:'settings.sources',languagesLabel:'settings.languages',excludeLabel:'settings.exclude',moduleTitle:'settings.modules',ruleTitle:'settings.rules',notice:'setup.observe',addModule:'action.add',addRule:'action.add',save:'action.save'}))document.getElementById(id).textContent=t(key);
+for(const key of ['sources','exclude']){const input=document.getElementById(key);input.value=(config[key]||[]).join('\n');input.oninput=()=>config[key]=input.value.split(/\r?\n/).map(v=>v.trim()).filter(Boolean);}
+for(const name of data.schema.languages){const [wrap,input]=field(name,'checkbox',config.languages.includes(name));input.onchange=()=>{config.languages=data.schema.languages.filter(value=>value===name?input.checked:config.languages.includes(value));};document.getElementById('languages').append(wrap);}
+document.getElementById('language').value=data.locale;document.getElementById('language').onchange=e=>{location.href='/settings?lang='+encodeURIComponent(e.target.value);};
+document.getElementById('map').href='/?lang='+data.locale;
+document.getElementById('addModule').onclick=()=>{config.structure.modules.push({id:'module'+(config.structure.modules.length+1),path:config.sources[0]});render();};
+document.getElementById('addRule').onclick=()=>{config.standards.rules.push({id:'rule'+(config.standards.rules.length+1),unit:'folder',metric:'files',max:null,scope:'**',depth:'direct',enabled:false});render();};
+document.getElementById('save').onclick=async()=>{const button=document.getElementById('save'),status=document.getElementById('status');if([...document.querySelectorAll('input,textarea')].some(n=>!n.reportValidity()))return;button.disabled=true;status.className='';try{config.locale=data.locale;const response=await fetch('/settings/config',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({config,expected:data.fingerprint})});const result=await response.json();if(!response.ok)throw Error(t(result.error)||result.error);data.fingerprint=result.fingerprint;status.textContent=t('settings.saved');}catch(error){status.className='error';status.textContent=error.message;}finally{button.disabled=false;}};render();
+</script></html>'''

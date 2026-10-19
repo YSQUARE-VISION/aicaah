@@ -1,0 +1,8 @@
+include LICENSE README.md README.ko.md README.zh.md README.ja.md
+include CHANGELOG.md CONTRIBUTING.md THIRD_PARTY_NOTICES.md MANIFEST.json .gitignore
+recursive-include docs *.md
+recursive-include examples *.json
+recursive-include scripts *.py
+recursive-include .github *.yml
+recursive-include src/aicaah/public *
+global-exclude __pycache__ *.py[cod]

@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+.spec-conformance/
+.pytest_cache/
+benchmark.json
+.env
+.pypirc
+*.pem
+*.key
